@@ -1,0 +1,49 @@
+/* fonts used */
+
+/* big headings */
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"> 
+
+font-family: 'Poppins', sans-serif;
+*/
+
+
+/* small headings */
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+
+font-family: 'Roboto Condensed', sans-serif;
+*/
+
+/* colors used */
+
+/* primary color */
+/* #DDE6ED */
+
+/* secondary color */
+/* #27374D */
+
+/* hover color */
+/* #609EA2 */
+body{
+  background-color: #FCFFE7;
+}
+
+button{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+
+button:focus {
+  outline: 0;
+}
+button:hover{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}

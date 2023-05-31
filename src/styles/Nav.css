@@ -1,0 +1,183 @@
+
+button:active {
+    transform: scale(0.9);
+  }
+  
+button:focus {
+    outline: 0;
+}
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    outline: none;
+    border: none;
+    background-color: #27374D;
+    border-radius: 3px;
+    color: #609EA2;
+}
+
+.nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+
+    }
+    
+    .nav .nav-logo{
+    background-color: #27374D;
+    height: 4rem;
+    width: 8rem;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: -4.5rem;
+    box-shadow: 0px 0px 25px #888888;
+    }
+    
+    .nav .nav-logo img{
+        height: 6rem;
+        border-radius: 3px;
+    }
+    
+    .nav .nav-logo label{
+        color: white;
+        font-size: 20px;
+        text-transform: uppercase;
+        /* font-family: 'Poppins', sans-serif; */
+        font-weight: 500;
+    }
+    
+    .nav .nav-logo p{
+        color: white;
+        font-weight: 200;
+        text-align: right;
+        font-size: 12px;
+    }
+    
+    .nav .nav-links{
+        /* background-color: pink; */
+        width: 27vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    
+    .nav .nav-links a{
+        /* font-family: 'Roboto Condensed', sans-serif; */
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #27374D;
+        padding: 2vw;
+    }
+    
+    .nav .nav-links a:hover{
+        color: #609EA2;
+        transition: 0.8s ease-in-out;
+        transition-duration: 0.5s;
+    }
+    
+    .nav .nav-app{
+        /* background-color: green; */
+        width: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -5rem;
+    }
+    
+    .nav .nav-app-link {
+        background-color: #27374D;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 3px;
+    }
+    
+    .nav a{
+       text-decoration: none;
+    }
+    
+    .nav a .nav-app-link i{
+       font-size: 1.5rem;
+       color: white;
+    }
+    
+    .nav a .nav-app-link:hover i {
+        color: #609EA2;
+        transition: 0.8s ease-in ;
+        cursor: pointer;
+    }
+
+    /* responsive nav */
+
+@media only screen and (max-width: 780px){
+.nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8rem;
+    z-index: 2;
+}
+            
+.nav .nav-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 8rem;
+    background-color: rebeccapurple;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    z-index: 1;
+
+    scroll-behavior: smooth;
+
+}
+
+.nav .nav-header .nav-header-link{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width: 70vw;
+    display: flex;
+    z-index: 0;
+
+    scroll-behavior: smooth;
+
+}
+
+.nav .nav-header .nav-header-link .nav-link-1{
+    /* padding: 6.5rem; */
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* width: 30vw; */
+}
+        
+.nav .nav-header .nav-header-link .nav-link-1 .nav-card{
+    background-color: crimson;
+    width: 40vw;
+    height: 20vw;
+    border: 1px solid black;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.nav .nav-header .nav-header-link .nav-link-1 .nav-card button{
+
+}
+
+            
+}

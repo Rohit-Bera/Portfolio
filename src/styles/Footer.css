@@ -1,0 +1,238 @@
+/*  */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #8BF5FA; */
+}
+
+.footer .footer-background{
+    background: url("../resources/background.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-bottom: 1%; */
+  width: 100%;
+}
+
+.footer .footer-container{
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.2)
+    );
+    backdrop-filter: blur(1rem);
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+}
+
+
+.footer .footer-container .footer-head{
+        /* background-color: #8BF5FA; */
+        width: 40vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        /* background-color: aqua; */
+
+}
+
+.footer .footer-container .footer-head label{
+    font-size: 15vh;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    color: #8BF5FA;
+    opacity: 0.8;
+    /* text-shadow: 0px 0px 25px #888888; */
+    padding: 1rem;
+}
+
+.footer .footer-container .footer-head .line{
+    background-color: #F1F6F9;
+    height: 2px;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-container .footer-head section{
+    background-color: #27374D;
+    height: 12vh;
+    width: 30vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.footer .footer-container .footer-head section button{
+    background-color: #F1F6F9;
+    height: 11vh;
+    width: 6vw;
+    margin-left: 0.2rem;
+    margin-right: 3rem;
+    color: black;
+}
+
+.footer .footer-container .footer-head section button i{
+    font-size: 1.5rem;
+}
+
+.footer .footer-container .footer-head section span{
+    color: #8BF5FA;
+}
+
+.footer .footer-container .footer-head section:hover{
+    background-color: #8BF5FA;
+    transition: 0.6s;
+}
+
+.footer .footer-container .footer-head section:hover button{
+    background-color: black;
+    color: #F1F6F9;
+    transition: 0.6s;
+    
+}
+
+.footer .footer-container .footer-head section:hover button i{
+    color: #F1F6F9;
+    transition: 0.6s;
+
+}
+
+.footer .footer-container .footer-head section:hover span{
+    color: black;
+    transition: 0.6s;
+    font-size: 500;
+}
+
+.footer .footer-container .footer-body{
+        /* background-color: #8BF5FA; */
+        width: 30.5vw;
+        height: 50vh;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.footer .footer-container .footer-body form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 30.5vw;
+    height: 50vh;
+
+    margin-top: 13rem;
+}
+
+.footer .footer-container .footer-body .footer-part-1 input{
+    background-color: #27374D;
+    color: #8BF5FA;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 1rem;
+    height: 10vh;
+    width: 29vw;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer .footer-container .footer-body .footer-part-1 input:focus,
+.footer .footer-container .footer-body .footer-part-2 input:focus,
+.footer .footer-container .footer-body .footer-part-3 textarea:focus
+{
+    color: black;
+    background-color: #8BF5FA;
+}
+
+.footer .footer-container .footer-body .footer-part-2 input{
+    background-color: #27374D;
+    font-weight: 500;
+    padding-left: 1rem;
+    height: 10vh;
+    width: 29vw;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer .footer-container .footer-body .footer-part-3 textarea{
+    background-color: #27374D;
+    font-weight: 500;
+    padding: 1rem;
+    height: 12vh;
+    width: 28vw;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer .footer-container .footer-body button{
+    text-transform: uppercase;
+    height: 10vh;
+    width: 30.5vw;
+    background-color: #F1F6F9;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.footer .footer-container .footer-body button:hover{
+    color: #27374D;
+    background-color: #8BF5FA;
+    transition: 0.5s all;
+}
+.footer .footer-container .footer-body button:hover span{
+    margin-right: 2rem;
+    transition: 0.5s all;
+}
+
+.footer .footer-links{
+    background-color: #134E5E;
+    width: 100%;
+    height: 10vh;
+    color: #8BF5FA;
+    font-size: large;
+    border-top: 2px solid #8BF5FA;
+}
+
+.footer .footer-links p{
+    margin-left: 5rem;
+}
