@@ -1,13 +1,20 @@
 import React, { useRef, useState, useEffect } from "react";
 import "../styles/Nav.css";
-import { Link, NavLink } from "react-router-dom";
-import { ForwardIcon, BackwardIcon } from "@heroicons/react/24/solid";
+import { Link, NavLink, useNavigate } from "react-router-dom";
+import {
+  ForwardIcon,
+  BackwardIcon,
+  BarsArrowDownIcon,
+} from "@heroicons/react/24/solid";
 
 const Nav = () => {
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
     window.innerHeight,
   ]);
+
+  const navigate = useNavigate();
+  // navigate("/contactme");
 
   useEffect(() => {
     const handleWindowResize = () => {
@@ -21,159 +28,68 @@ const Nav = () => {
     };
   }, []);
 
-  // if (windowSize[0] <= 780) {
-  //   return (
-  //     <>
-  //       <div className="nav">
-  //         <div className="nav-logo">
-  //           <label>Rohit Bera</label>
-  //           <p>developer</p>
-  //           {/* <img src={logo} /> */}
-  //         </div>
-  //         <div className="nav-header">
-  //           <div className="nav-header-link">
-  //             <div className="nav-link-1">
-  //               <div className="nav-card">
-  //                 <Link>
-  //                   <h2>Home</h2>
-  //                 </Link>
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState("Select an option");
 
-  //                 <Link to="/about">
-  //                   <a href="#about">
-  //                     <button>
-  //                       <ForwardIcon height={30} width={30} />
-  //                     </button>
-  //                   </a>
-  //                 </Link>
-  //               </div>
+  const toggleDropdown = () => {
+    setIsOpen(!isOpen);
+  };
 
-  //               <div className="nav-card" id="about">
-  //                 <a href="">
-  //                   <button>
-  //                     <BackwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
+  const selectOption = (option) => {
+    setSelectedOption(option);
+    setIsOpen(false);
+  };
 
-  //                 <Link>
-  //                   <h2>About</h2>
-  //                 </Link>
+  if (windowSize[0] <= 780) {
+    return (
+      <>
+        <div className="nav">
+          <div className="nav-logo">
+            <label>Rohit Bera</label>
+            <p>developer</p>
+            {/* <img src={logo} /> */}
+          </div>
 
-  //                 <a href="">
-  //                   <button>
-  //                     <ForwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-  //               </div>
-
-  //               <div className="nav-card">
-  //                 <a href="">
-  //                   <button>
-  //                     <BackwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-
-  //                 <Link>
-  //                   <h2>Projects</h2>
-  //                 </Link>
-  //                 <a href="">
-  //                   <button>
-  //                     <ForwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-  //               </div>
-
-  //               <div className="nav-card">
-  //                 <a href="">
-  //                   <button>
-  //                     <BackwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-
-  //                 <Link>
-  //                   <h2>Services</h2>
-  //                 </Link>
-  //                 <a href="">
-  //                   <button>
-  //                     <ForwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-  //               </div>
-
-  //               <div className="nav-card">
-  //                 <a href="">
-  //                   <button>
-  //                     <BackwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-
-  //                 <Link>
-  //                   <h2>contact</h2>
-  //                 </Link>
-  //                 <a href="">
-  //                   <button>
-  //                     <ForwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-  //               </div>
-
-  //               <div className="nav-card">
-  //                 <a href="">
-  //                   <button>
-  //                     <BackwardIcon height={30} width={30} />
-  //                   </button>
-  //                 </a>
-
-  //                 <div className="nav-app">
-  //                   <a href="">
-  //                     <div className="nav-app-link">
-  //                       <i class="fab fa-github" />
-  //                     </div>
-  //                   </a>
-  //                   <a href="">
-  //                     <div className="nav-app-link">
-  //                       <i class="fab fa-linkedin-in" />
-  //                     </div>
-  //                   </a>
-  //                 </div>
-  //               </div>
-  //             </div>
-  //           </div>
-  //         </div>
-  //       </div>
-  //     </>
-  //   );
-  // } else {
-  return (
-    <>
-      <div className="nav">
-        <div className="nav-logo">
-          <label>Rohit Bera</label>
-          <p>developer</p>
-          {/* <img src={logo} /> */}
+          <div className="nav-dropdown">
+            <button className="dropbtn">
+              <BarsArrowDownIcon height={25} width={25} />
+            </button>
+          </div>
         </div>
-        <div className="nav-links">
-          <Link>Home</Link>
-          <Link>About</Link>
-          <Link>Projects</Link>
-          <Link>Service</Link>
-          <Link>Contact</Link>
+      </>
+    );
+  } else {
+    return (
+      <>
+        <div className="nav">
+          <div className="nav-logo">
+            <label>Rohit Bera</label>
+            <p>developer</p>
+            {/* <img src={logo} /> */}
+          </div>
+          <div className="nav-links">
+            <Link to="/">Home</Link>
+            <Link to="/aboutMe">About</Link>
+            <Link to="/projectsIdid">Projects</Link>
+            <Link to="/serviceIprovide">Service</Link>
+            <Link to="/contactme">Contact</Link>
+          </div>
+          <div className="nav-app">
+            <a href="">
+              <div className="nav-app-link">
+                <i class="fab fa-github" />
+              </div>
+            </a>
+            <a href="">
+              <div className="nav-app-link">
+                <i class="fab fa-linkedin-in" />
+              </div>
+            </a>
+          </div>
         </div>
-        <div className="nav-app">
-          <a href="">
-            <div className="nav-app-link">
-              <i class="fab fa-github" />
-            </div>
-          </a>
-          <a href="">
-            <div className="nav-app-link">
-              <i class="fab fa-linkedin-in" />
-            </div>
-          </a>
-        </div>
-      </div>
-    </>
-  );
+      </>
+    );
+  }
 };
-// };
 
 export default Nav;

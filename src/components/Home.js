@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <>
-      {/* <Nav /> */}
+      <Nav />
       {/* home */}
       {/* profile */}
       <div className="profile">
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <span className="hero3">Just a Developer for fun!</span>
             <div className="profile-whoami-buttons">
-              <Link>
+              <Link to="/aboutMe">
                 <div>
                   <label>about me </label>
                   <PaperAirplaneIcon color="white" height={20} width={20} />
@@ -93,19 +93,19 @@ const Home = () => {
             </div>
           </div>
           <div className="profile-whatidid">
-            <Link>
+            <Link to="/projectsIdid">
               <div>
                 <i class="fab fa-brands fa-slack"></i>
                 <h2>Product Planner</h2>
               </div>
             </Link>
-            <Link>
+            <Link to="/projectsIdid">
               <div>
                 <i class="fab fa-brands fa-squarespace"></i>
                 <h2>Product Designer</h2>
               </div>
             </Link>
-            <Link>
+            <Link to="/projectsIdid">
               <div>
                 <i class="fab fa-brands fa-twitch"></i>
                 <h2>Freelancer</h2>
@@ -158,7 +158,7 @@ const Home = () => {
               <div className="about-me-text">
                 <label>Experience</label>
                 <p>
-                  <Link>
+                  <Link to="/aboutme">
                     <button>
                       know more about myself!
                       <ArrowTopRightOnSquareIcon height={20} width={20} />
@@ -263,6 +263,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* promotion */}
       <div className="promotion">
         <div className="promotion-container">
@@ -274,27 +275,33 @@ const Home = () => {
               <span>there ...👉</span>
             )}
           </span>
-          <button>
-            <label>check out</label>
-            <CodeBracketIcon height={25} width={25} />
-          </button>
+          <Link to="/projectsIdid">
+            <button>
+              <label>check out</label>
+              <CodeBracketIcon height={25} width={25} />
+            </button>
+          </Link>
         </div>
       </div>
+
       {/* Service */}
       <div className="service">
         <div className="service-head">
           <label>Checkout</label>
           <p>Newly Launched Services</p>
-          <button>
-            <span>view all services</span>
-            <ForwardIcon height={25} width={25} color="#27374D" />
-          </button>
+          <Link to="/serviceIprovide">
+            <button>
+              <span>view all services</span>
+              <ForwardIcon height={25} width={25} color="#27374D" />
+            </button>
+          </Link>
         </div>
         <div className="service-body">
           <img src={serviceImg} />
         </div>
       </div>
-      {/* <Footer /> */}
+
+      <Footer />
     </>
   );
 };

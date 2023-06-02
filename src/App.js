@@ -19,15 +19,15 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/about",
+      path: "/aboutMe",
       element: <About />,
     },
     {
-      path: "/service",
+      path: "/serviceIprovide",
       element: <Service />,
     },
     {
-      path: "/work",
+      path: "/projectsIdid",
       element: <Work />,
     },
     {
