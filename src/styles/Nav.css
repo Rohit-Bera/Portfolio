@@ -185,7 +185,7 @@ select {
         position: fixed;
         z-index: 3;
         background-color: #134E5E;
-        min-height: 95vh;
+        min-height: 90vh;
         top: 50%;
         left: 50%;
         border-radius: 3px;
@@ -206,7 +206,7 @@ select {
         flex-direction: column;
         min-width: 90vw;
         min-height: 60vh;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-bottom: 4%;
     }
 
@@ -306,7 +306,7 @@ select {
         position: fixed;
         z-index: 3;
         background-color: #134E5E;
-        min-height: 95vh;
+        min-height: 90vh;
         top: 50%;
         left: 50%;
         border-radius: 3px;
@@ -327,7 +327,7 @@ select {
         flex-direction: column;
         min-width: 90vw;
         min-height: 60vh;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-bottom: 4%;
     }
 
@@ -451,7 +451,7 @@ select {
         position: fixed;
         z-index: 3;
         background-color: #134E5E;
-        min-height: 95vh;
+        min-height: 90vh;
         top: 50%;
         left: 50%;
         border-radius: 3px;
@@ -472,7 +472,7 @@ select {
         flex-direction: column;
         min-width: 90vw;
         min-height: 60vh;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-bottom: 4%;
     }
 
@@ -574,7 +574,7 @@ select {
         position: fixed;
         z-index: 3;
         background-color: #134E5E;
-        min-height: 95vh;
+        min-height: 90vh;
         top: 50%;
         left: 50%;
         border-radius: 3px;
@@ -595,7 +595,7 @@ select {
         flex-direction: column;
         min-width: 90vw;
         min-height: 60vh;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-bottom: 4%;
     }
 
