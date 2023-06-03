@@ -30,7 +30,6 @@ select {
     justify-content: space-around;
     align-items: center;
     height: 8rem;
-
     }
     
     .nav .nav-logo{
@@ -232,3 +231,23 @@ select {
 
       
 }
+
+@media only screen and (min-width: 390px) and (max-width: 400px){
+    .dropbtn {
+        background-color: #27374D;
+        height: 4rem;
+        width: 4rem;
+        font-size: 16px;
+        border: none;
+        color: #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 25px #888888;
+        margin-left: 7.5rem;
+        /* background-color: pink; */
+      }
+      
+}
+
+/* @media only screen and (min-width: 390px) and (max-width: 400px) */

@@ -188,7 +188,7 @@ const Home = () => {
               </div>
               <div className="project-description">
                 <div className="project-description-1">
-                  <label>medshub24/7 web</label>
+                  <label>medshub24/7</label>
                   <span>full stack web app</span>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const Home = () => {
               </div>
               <div className="project-description">
                 <div className="project-description-1">
-                  <label>gold web</label>
+                  <label>gold</label>
                   <span>full stack web app</span>
                 </div>
               </div>
@@ -229,7 +229,7 @@ const Home = () => {
               </div>
               <div className="project-description">
                 <div className="project-description-1">
-                  <label>Recreate app</label>
+                  <label>Recreate</label>
                   <span>react native app</span>
                 </div>
               </div>
@@ -255,7 +255,7 @@ const Home = () => {
               </div>
               <div className="project-description">
                 <div className="project-description-1">
-                  <label>Taskify app</label>
+                  <label>Taskify</label>
                   <span>react native app</span>
                 </div>
               </div>

@@ -494,3 +494,37 @@
         color: black;
     }
   }
+
+  @media only screen and (min-width: 390px) and (max-width: 400px){
+    .footer .footer-background .footer-container .footer-section-1 label{
+      font-size: 10vh;
+  }
+
+  .footer-section-2 .footer-head{
+      width: 90vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: row;
+      height: 13vh;
+      /* background-color: aqua; */
+  }
+
+  .footer-section-2 .footer-head section{
+      background-color: #27374D;
+      height: 10vh;
+      width: 20vw;
+      display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  .footer-section-2 .footer-head section button{
+      background-color: #F1F6F9;
+      height: 9vh;
+      width: 18vw;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      color: black;
+  }
+  }
