@@ -5,7 +5,11 @@ import {
   ForwardIcon,
   BackwardIcon,
   BarsArrowDownIcon,
+  QueueListIcon,
+  XMarkIcon,
 } from "@heroicons/react/24/solid";
+// import Modal from "react-modal/lib/components/Modal";
+// Modal.setAppElement("#root");
 
 const Nav = () => {
   const [windowSize, setWindowSize] = useState([
@@ -13,7 +17,7 @@ const Nav = () => {
     window.innerHeight,
   ]);
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   // navigate("/contactme");
 
   useEffect(() => {
@@ -28,16 +32,56 @@ const Nav = () => {
     };
   }, []);
 
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("Select an option");
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const selectOption = (option) => {
-    setSelectedOption(option);
-    setIsOpen(false);
+  const Modal = () => {
+    return (
+      <>
+        <div className="modal-wrapper"></div>
+        <div className="modal-container">
+          <div className="modal-head">
+            <button
+              onClick={() =>
+                modalIsOpen === true
+                  ? setModalIsOpen(false)
+                  : setModalIsOpen(true)
+              }
+            >
+              <XMarkIcon height={25} width={25} />
+            </button>
+          </div>
+          <div className="modal-links">
+            <Link to="/">
+              <label>Home</label>
+            </Link>
+            <Link to="/aboutMe">
+              <label>About</label>
+            </Link>
+            <Link to="/projectsIdid">
+              <label>Projects</label>
+            </Link>
+            <Link to="/serviceIprovide">
+              <label>Service</label>
+            </Link>
+            <Link to="/contactme">
+              <label>Contact</label>
+            </Link>
+          </div>
+          <div className="nav-app">
+            <a href="">
+              <button className="nav-app-link">
+                <i class="fab fa-github" />
+              </button>
+            </a>
+            <a href="">
+              <button className="nav-app-link">
+                <i class="fab fa-linkedin-in" />
+              </button>
+            </a>
+          </div>
+        </div>
+      </>
+    );
   };
 
   if (windowSize[0] <= 780) {
@@ -51,11 +95,19 @@ const Nav = () => {
           </div>
 
           <div className="nav-dropdown">
-            <button className="dropbtn">
-              <BarsArrowDownIcon height={25} width={25} />
+            <button
+              onClick={() =>
+                modalIsOpen === true
+                  ? setModalIsOpen(false)
+                  : setModalIsOpen(true)
+              }
+            >
+              <QueueListIcon height={25} width={25} />
             </button>
           </div>
         </div>
+
+        {modalIsOpen && <Modal />}
       </>
     );
   } else {

@@ -2743,7 +2743,7 @@ background-color: #F7E1AE;
     }
     .featured-project .featured-project-container .featured-project-container-1 label{
         font-size: 9vh;
-        margin-left: -0.8rem;
+        margin-left: -0.5rem;
         text-align: center;
     }
 
@@ -2991,7 +2991,7 @@ background-color: #F7E1AE;
         box-shadow: 0px 0px 30px  #888888;
     }
     .promotion .promotion-container button label{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: 500;
     }
 }
@@ -3440,7 +3440,7 @@ flex-direction: column;
         }
 
         .service .service-head button span{
-            font-size: 4.5vw;
+            font-size: 4vw;
             color: #27374D;
         }
 }

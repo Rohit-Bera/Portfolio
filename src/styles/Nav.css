@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 button:active , select:active {
     transform: scale(0.9);
   }
@@ -150,7 +152,7 @@ select {
 
     }
 
-    .dropbtn {
+    .nav .nav-dropdown button {
         background-color: #27374D;
         height: 4rem;
         width: 4rem;
@@ -168,10 +170,115 @@ select {
       
 }
 
+@media only screen and (max-width: 426px){
+    .modal-wrapper{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(189, 189, 189, 0.7);
+        z-index: 2;
+    }
+
+    .modal-container{
+        position: fixed;
+        z-index: 3;
+        background-color: #134E5E;
+        min-height: 95vh;
+        top: 50%;
+        left: 50%;
+        border-radius: 3px;
+        transform: translate(-50% , -50%);
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    /* .nav .nav-dropdown button:focus > .modal-container{
+        transform: translate(90% , -50%);
+        transition: transform 330ms ease-in-out;
+    } */
+
+    .modal-links{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        min-width: 90vw;
+        min-height: 60vh;
+        margin-top: 25%;
+        margin-bottom: 4%;
+    }
+
+    .modal-links label{
+        font-size: 2.5vmax;
+        /* background-color: aqua; */
+        width: 10rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        color: #8BF5FA;
+    }
+
+    .modal-links label:hover{
+        transform: scale(1.2);
+        border-radius: 3px;
+        border: 2px solid #8BF5FA;
+        color: white;
+    }
+
+    .modal-head{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .modal-head button{
+        background-color: white;
+        height: 3rem;
+        width: 3rem;
+        font-size: 16px;
+        border: none;
+        color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* box-shadow: 0px 0px 25px #888888; */
+        /* background-color: pink; */
+        z-index: 3;
+    }
+
+    .modal-container .nav-app{
+        width: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -5rem;
+        /* background-color: #609EA2; */
+        min-width: 90vw;
+    }
+
+    .modal-container .nav-app .nav-app-link{
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .modal-container .nav-app .nav-app-link i{
+        color: #27374D;
+        font-size: 2rem;
+    }
+}
+
 @media only screen and (max-width: 376px){
     
 
-    .dropbtn {
+    .nav .nav-dropdown button {
         background-color: #27374D;
         height: 4rem;
         width: 4rem;
@@ -185,6 +292,108 @@ select {
         margin-left: 8rem;
       }
       
+      .modal-wrapper{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(189, 189, 189, 0.7);
+        z-index: 2;
+    }
+
+    .modal-container{
+        position: fixed;
+        z-index: 3;
+        background-color: #134E5E;
+        min-height: 95vh;
+        top: 50%;
+        left: 50%;
+        border-radius: 3px;
+        transform: translate(-50% , -50%);
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    /* .nav .nav-dropdown button:focus > .modal-container{
+        transform: translate(90% , -50%);
+        transition: transform 330ms ease-in-out;
+    } */
+
+    .modal-links{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        min-width: 90vw;
+        min-height: 60vh;
+        margin-top: 25%;
+        margin-bottom: 4%;
+    }
+
+    .modal-links label{
+        font-size: 2.5vmax;
+        /* background-color: aqua; */
+        width: 10rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        color: #8BF5FA;
+    }
+
+    .modal-links label:hover{
+        transform: scale(1.3);
+        border-radius: 3px;
+        border: 2px solid #8BF5FA;
+        color: white;
+    }
+
+    .modal-head{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .modal-head button{
+        background-color: white;
+        height: 3rem;
+        width: 3rem;
+        font-size: 16px;
+        border: none;
+        color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* box-shadow: 0px 0px 25px #888888; */
+        /* background-color: pink; */
+        z-index: 3;
+    }
+
+    .modal-container .nav-app{
+        width: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -5rem;
+        /* background-color: #609EA2; */
+        min-width: 90vw;
+    }
+
+    .modal-container .nav-app .nav-app-link{
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .modal-container .nav-app .nav-app-link i{
+        color: #27374D;
+        font-size: 2rem;
+    }
 
       
 }
@@ -214,7 +423,7 @@ select {
 
     }
 
-    .dropbtn {
+    .nav .nav-dropdown button {
         background-color: #27374D;
         height: 4rem;
         width: 4rem;
@@ -226,14 +435,116 @@ select {
         align-items: center;
         box-shadow: 0px 0px 25px #888888;
         margin-left: 5rem;
-      }
+    }
       
+    .modal-wrapper{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(189, 189, 189, 0.7);
+        z-index: 2;
+    }
+
+    .modal-container{
+        position: fixed;
+        z-index: 3;
+        background-color: #134E5E;
+        min-height: 95vh;
+        top: 50%;
+        left: 50%;
+        border-radius: 3px;
+        transform: translate(-50% , -50%);
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    /* .nav .nav-dropdown button:focus > .modal-container{
+        transform: translate(90% , -50%);
+        transition: transform 330ms ease-in-out;
+    } */
+
+    .modal-links{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        min-width: 90vw;
+        min-height: 60vh;
+        margin-top: 25%;
+        margin-bottom: 4%;
+    }
+
+    .modal-links label{
+        font-size: 2.5vmax;
+        /* background-color: aqua; */
+        width: 10rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        color: #8BF5FA;
+    }
+
+    .modal-links label:hover{
+        transform: scale(1.3);
+        border-radius: 3px;
+        border: 2px solid #8BF5FA;
+        color: white;
+    }
+
+    .modal-head{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .modal-head button{
+        background-color: white;
+        height: 3rem;
+        width: 3rem;
+        font-size: 16px;
+        border: none;
+        color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* box-shadow: 0px 0px 25px #888888; */
+        /* background-color: pink; */
+        z-index: 3;
+    }
+
+    .modal-container .nav-app{
+        width: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -5rem;
+        /* background-color: #609EA2; */
+        min-width: 90vw;
+    }
+
+    .modal-container .nav-app .nav-app-link{
+        background-color: white;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .modal-container .nav-app .nav-app-link i{
+        color: #27374D;
+        font-size: 2rem;
+    }
 
       
 }
 
 @media only screen and (min-width: 390px) and (max-width: 400px){
-    .dropbtn {
+    .nav .nav-dropdown button {
         background-color: #27374D;
         height: 4rem;
         width: 4rem;
@@ -246,7 +557,111 @@ select {
         box-shadow: 0px 0px 25px #888888;
         margin-left: 7.5rem;
         /* background-color: pink; */
-      }
+        z-index: 3;
+    }
+
+    .modal-wrapper{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(189, 189, 189, 0.7);
+        z-index: 2;
+    }
+
+    .modal-container{
+        position: fixed;
+        z-index: 3;
+        background-color: #134E5E;
+        min-height: 95vh;
+        top: 50%;
+        left: 50%;
+        border-radius: 3px;
+        transform: translate(-50% , -50%);
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    /* .nav .nav-dropdown button:focus > .modal-container{
+        transform: translate(90% , -50%);
+        transition: transform 330ms ease-in-out;
+    } */
+
+    .modal-links{
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        min-width: 90vw;
+        min-height: 60vh;
+        margin-top: 25%;
+        margin-bottom: 4%;
+    }
+
+    .modal-links label{
+        font-size: 2.5vmax;
+        /* background-color: aqua; */
+        width: 10rem;
+        height: 3rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: 0.3s ease-in-out;
+        color: #8BF5FA;
+    }
+
+    .modal-links label:hover{
+        transform: scale(1.5);
+        border-radius: 3px;
+        border: 2px solid #8BF5FA;
+        color: white;
+    }
+
+    .modal-head{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .modal-head button{
+        background-color: white;
+        height: 4rem;
+        width: 4rem;
+        font-size: 16px;
+        border: none;
+        color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* box-shadow: 0px 0px 25px #888888; */
+        /* background-color: pink; */
+        z-index: 3;
+    }
+
+    .modal-container .nav-app{
+        width: 7rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: -5rem;
+        /* background-color: #609EA2; */
+        min-width: 90vw;
+    }
+
+    .modal-container .nav-app .nav-app-link{
+        background-color: white;
+        width: 4.5rem;
+        height: 4.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 3px;
+        text-decoration: none;
+    }
+
+    .modal-container .nav-app .nav-app-link i{
+        color: #27374D;
+        font-size: 2rem;
+    }
       
 }
 
