@@ -35,7 +35,7 @@ const Footer = () => {
               <label>Socials</label>
             </div>
             <div className="footer-section-2">
-              {windowSize[0] <= 426 ? (
+              {windowSize[0] <= 500 ? (
                 <div className="footer-head">
                   <a href="">
                     <section>
