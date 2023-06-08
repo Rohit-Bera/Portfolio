@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
-import "../styles/About.css";
-import "../styles/Projects.css";
 import Footer from "./Footer";
 import logo from "../resources/portfolioLogo.png";
 import aboutme from "../resources/aboutme.jpg";

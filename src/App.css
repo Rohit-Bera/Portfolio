@@ -30,7 +30,7 @@ font-family: 'Roboto Condensed', sans-serif;
 /* hover color */
 /* #609EA2 */
 body{
-  background-color: #FCFFE7;
+  background-color: #F6FFDE;
 }
 
 button{
@@ -46,4 +46,8 @@ button:hover{
 
 a{
   text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

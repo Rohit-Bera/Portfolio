@@ -1,0 +1,809 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-wrapper .about-hero{
+/* background-color: #27374D; */
+width: 95%;
+display: flex;
+box-shadow: 0px 0px 30px  #888888;
+}
+
+.about-wrapper .about-hero .about-hero-part1{
+    background-color: #F1F6F9;
+    /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+    background-size: cover;
+    background-attachment: fixed;
+    width: 60%;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-wrapper .about-hero .about-hero-part1 section{
+    width: 30%;
+    height: 80%;
+    /* background-color: #ffe4c4; */
+    margin-left: 14vw;
+    text-align: right;
+}
+
+.about-wrapper .about-hero .about-hero-part1 section p{
+    font-size: 3vh;
+    font-weight: 600;
+    text-align: right;
+    
+}
+
+.about-wrapper .about-hero .about-hero-part1 section p span{
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+    font-size: 6vh;
+    color: #134E5E;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* .about-wrapper .about-hero .about-hero-part1 section label{
+    font-family: "Nunito Sans", sans-serif;
+  font-size: 13vh;
+} */
+
+.about-wrapper .about-hero .about-hero-part2{
+    background-color: green;
+    background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 40%;
+    height: 87vh;
+}
+
+.about-wrapper .about-hero .about-hero-part2 img{
+    height: 100%;
+    width: 60%;
+    margin-left: -10rem;
+}
+
+.about-wrapper .about-hero .about-hero-part2 .aboutme-container{
+position: relative;
+bottom: 80vh;
+right: -3.2vw;
+/* background-color: blanchedalmond; */
+width: 20vw;
+height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.about-wrapper .about-hero .about-hero-part2 .aboutme-container p{
+    background-color: rgb(39, 55, 77, 0.3);
+    /* background-color: aqua; */
+    backdrop-filter: blur(1rem);
+    padding: 2rem;
+    width: 25vw;
+    margin-left: -10rem;
+    border-radius: 3px;
+    color: #8BF5FA;
+    font-weight: 500;
+}
+
+.about-wrapper .about-hero .about-hero-part2 .aboutme-container section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20vw;
+}
+
+
+.about-wrapper .about-hero .about-hero-part2 .aboutme-container img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+
+.about-wrapper .about-hero .about-hero-part2 .aboutme-container section button{
+    font-size: 16px;
+    color: #8BF5FA;
+    width: 8rem;
+    text-align: left;
+    height: 2.5rem;
+}
+
+/* about me responsive */
+
+/* ------------------------------ education */
+
+.about-wrapper .about-edu{
+    background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part1{
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 50%;
+        height: 87vh;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part1 .edu-1{
+        width: 75%;
+        height: 90%;
+        /* background-color: pink; */
+        /* margin-left: -20vw; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 30vh;
+        width: 18vw;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 h3{
+        color: white;
+        margin-left: -3.7rem;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #134E5E;
+        width: 15vw;
+        padding: 0.7rem;
+        background-color: #F1F6F9;
+        border-radius: 5px;
+        font-weight: 500;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p sup{
+        color: black;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2{
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        height: 30vh;
+        width: 20vw;
+    }
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth{
+        background-color: white;
+        color: black;
+        height: 16vh;
+        width: 6vw;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px  #888888;
+
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth span{
+        font-size: 1rem;
+        background-color: #27374D;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 3px;
+        font-weight: 500;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth label{
+font-weight: 500;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth{
+        /* background-color: purple; */
+        height: 25vh;
+        width: 9vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth span{
+        font-size: 30px;
+        height: 5vh;
+        background-color: #27374D;
+        color: white;
+        width: 9vw;
+        height: 7.5vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        font-weight: 500;
+
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth label{
+        background-color: white;
+        height: 16vh;
+        width: 9vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: 500;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px  #888888;
+        color: black;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2{
+        width: 100%;
+        height: 95%;
+        /* background-color: #8BF5FA; */
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 23vw;
+        height: 15vh;
+        border-radius: 5px;
+        padding: 0.7rem;
+        margin-bottom: 0.8rem;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2{
+        /* background-color: blueviolet; */
+        width: 25vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2 div{
+        background-color: #27374D;
+        padding: 0.5rem;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3{
+        background-color: #8BF5FA;
+        width: 23vw;
+        border-radius: 5px;
+        padding: 0.7rem;
+        margin-top: 0.8rem;
+        
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 div{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        margin: 8px 0px;
+        border-radius: 5px;
+        height: 6vh;
+        box-shadow: 0px 0px 30px  white;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1{
+        background-color: white;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: flex-start;
+        margin-top: 0.5rem;
+        width: 23vw;
+        height: 8.3vh;
+        border-radius: 5px;
+        padding: 0.7rem;
+        margin-bottom: 0.8rem;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2{
+        /* background-color: blueviolet; */
+        width: 25vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2 div{
+        background-color: #27374D;
+        padding: 0.5rem;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 5px;
+        flex-direction: column;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3{
+        background-color: #8BF5FA;
+        width: 23vw;
+        border-radius: 5px;
+        padding: 0.7rem;
+        margin-top: 0.8rem;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 div{
+        background-color: hwb(215 15% 70%);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        margin: 8px 0px;
+        border-radius: 5px;
+        padding: 0.3rem;
+        text-align: center;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2{
+        background-color: green;
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+        margin-left: 10rem;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 img{
+        height: 100%;
+        width: 60%;
+        margin-left: -10rem;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.2vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -10rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-edu .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+
+/* ---------------------------skills */
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-wrapper .about-skills{
+    background-color: #F1F6F9;
+width: 95%;
+display: flex;
+box-shadow: 0px 0px 30px  #888888;
+}
+
+.about-wrapper .about-skills .about-hero-part1{
+    
+    /* background-color: #F1F6F9; */
+    /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+    background-size: cover;
+    background-attachment: fixed;
+    width: 60%;
+    height: 87vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-wrapper .about-skills .about-hero-part1 section{
+    /* background-color: aqua; */
+    height: 85%;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-wrapper .about-skills .about-hero-part1 section .slider{
+    /* background-color: blue;
+    width: 48vw; */
+    padding: 0.5rem 0.9rem;
+}
+
+.about-wrapper .about-skills .about-hero-part1 section .slider .parent{
+    /* background-color: blanchedalmond; */
+    height: 70vh;
+    width: 24vw;
+    /* border: 2px solid black; */
+    cursor: pointer;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about-wrapper .about-skills .about-hero-part1 section .slider .parent img{
+    height: 2.5rem;
+    width: 2.5rem;
+    filter: invert(20%) sepia(4%) saturate(4988%) hue-rotate(176deg) brightness(91%) contrast(93%);
+    
+}
+
+.about-wrapper .about-skills .about-hero-part1 section .slider .parent i{
+    font-size: 2.5rem;
+    color: #27374D;
+}
+
+
+.img-container{
+    width: 5rem;
+    height: 5rem;
+    background-color: #F1F6F9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 0.7rem; */
+    border-radius: 100%;
+    border: 12px solid #8BF5FA;
+    box-shadow: 0px 0px 10px #8BF5FA;
+}
+
+.i-container{
+    width: 5rem;
+    height: 5rem;
+    background-color: #F1F6F9;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 0.7rem; */
+    border-radius: 100%;
+    border: 12px solid #8BF5FA;
+    box-shadow: 0px 0px 10px #8BF5FA;
+}
+
+.parent .x3l{
+background-color: #27374D;
+width: 19vw;
+height: 32vh;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+padding-bottom: 0.7rem;
+/* flex-direction: column; */
+color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 20px #888888;
+}
+
+.parent .x2l{
+    background-color: #27374D;
+    width: 19vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+/* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+box-shadow: 0px 0px 20px #888888;
+}
+
+.parent .xl{
+background-color: #27374D;
+width: 11vw;
+height: 29vh;
+display: flex;
+justify-content: space-around;
+align-items: flex-end;
+padding-bottom: 0.7rem;
+/* flex-direction: column; */
+color: white;
+border-radius: 5px;
+box-shadow: 0px 0px 15px #888888;
+}
+
+.about-wrapper .about-skills .about-hero-part2{
+    background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 40%;
+    height: 87vh;
+    margin-right: 10rem;
+}
+
+.about-wrapper .about-skills .about-hero-part2 img{
+    height: 100%;
+    width: 65%;
+    margin-left: 20rem;
+}
+
+.about-wrapper .about-skills .about-hero-part2 .aboutme-container{
+position: relative;
+bottom: 80vh;
+right: -2.5vw;
+/* background-color: blanchedalmond; */
+width: 21vw;
+height: 75vh;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+
+.about-wrapper .about-skills .about-hero-part2 .aboutme-container p{
+    background-color: rgb(39, 55, 77, 0.3);
+    /* background-color: aqua; */
+    backdrop-filter: blur(1rem);
+    padding: 2rem;
+    width: 25vw;
+    margin-left: 21rem;
+    border-radius: 3px;
+    font-weight: 500;
+    text-align: right;
+    color: #8BF5FA;
+}
+
+.about-wrapper .about-skills .about-hero-part2 .aboutme-container section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: aq; */
+    width: 20vw;
+}
+
+
+.about-wrapper .about-skills .about-hero-part2 .aboutme-container img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+
+.about-wrapper .about-skills .about-hero-part2 .aboutme-container section button{
+    font-size: 16px;
+    color: #8BF5FA;
+    width: 8rem;
+    text-align: left;
+    height: 2.5rem;
+}
+
+
+/* expericence */
+.about-wrapper .about-exp{
+    background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1{
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 50%;
+        height: 87vh;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 87vh;
+        width: 100%;
+        
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .allow-scroll{
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body{
+        /* background-color: blueviolet; */
+        width: 95%;
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1rem 1rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img{
+        background-color: white;
+        border-radius: 100%;
+        border: 8px solid #27374D;
+        height: 8rem;
+        width: 8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img img{
+    height: 5rem;
+    width: 5rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 11rem;
+        width: 30vw;
+        color: #8BF5FA;
+        padding: 0.3rem 1rem;
+        box-shadow: 0px 0px 30px  #888888;
+        border-radius: 5px;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2{
+        background-color: green;
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+        margin-left: 10rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 img{
+        height: 100%;
+        width: 60%;
+        margin-left: -10rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.2vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -10rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
