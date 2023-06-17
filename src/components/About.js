@@ -264,9 +264,6 @@ const About = () => {
                   </section>
                   <section className="uni-marks">
                     <label>82.5%</label>
-                    <label>82.5%</label>
-                    <label>82.5%</label>
-                    <label>82.5%</label>
                   </section>
                 </div>
               </section>
@@ -629,10 +626,6 @@ const About = () => {
                     <div>
                       <span>82.5%</span>
                       <label>sem 1</label>
-                    </div>
-                    <div>
-                      <span>90%</span>
-                      <label>sem 2</label>
                     </div>
                   </section>
                   <section className="masters-3">
