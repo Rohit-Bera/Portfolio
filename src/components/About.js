@@ -666,7 +666,7 @@ const About = () => {
                   showDots={false}
                   ssr={true} // means to render carousel on server-side.
                   infinite={true}
-                  autoPlay={false}
+                  autoPlay={true}
                   autoPlaySpeed={2500}
                   responsive={responsive}
                   keyBoardControl={true}
