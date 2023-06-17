@@ -8,6 +8,7 @@ html {
     align-items: center;
 }
 
+/* about me */
 .about-wrapper .about-hero{
 /* background-color: #27374D; */
 width: 95%;
@@ -44,8 +45,7 @@ box-shadow: 0px 0px 30px  #888888;
 }
 
 .about-wrapper .about-hero .about-hero-part1 section p span{
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
-    font-size: 6vh;
+    font-size: 5.5vh;
     color: #134E5E;
     text-transform: uppercase;
     font-weight: 600;
@@ -118,8 +118,6 @@ align-items: center;
     text-align: left;
     height: 2.5rem;
 }
-
-/* about me responsive */
 
 /* ------------------------------ education */
 
@@ -333,7 +331,6 @@ font-weight: 500;
         margin: 8px 0px;
         border-radius: 5px;
         height: 6vh;
-        box-shadow: 0px 0px 30px  white;
     }
 
     .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2{
@@ -667,7 +664,7 @@ align-items: center;
 }
 
 
-/* expericence */
+/* -----------------------expericence */
 .about-wrapper .about-exp{
     background-color: #F1F6F9;
     width: 95%;
@@ -680,7 +677,7 @@ align-items: center;
         /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
         background-size: cover;
         background-attachment: fixed;
-        width: 50%;
+        width: 59%;
         height: 87vh;
         display: flex;
         /* justify-content: space-around; */
@@ -711,7 +708,7 @@ align-items: center;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 1rem 1rem;
+        margin: 2rem 1rem;
     }
 
     .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img{
@@ -731,33 +728,83 @@ align-items: center;
     width: 5rem;
     }
 
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .points{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .line{
+        height: 26.2vh;
+        width: 3px;
+        background-color: #8BF5FA;
+        border: 1px solid #27374D;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .small-line{
+        height: 0rem;
+        width: 3px;
+        background-color: #8BF5FA;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .square{
+        height: 0.6rem;
+        width: 0.6rem;
+        background-color: white;
+        border: 4px solid #27374D;
+        /* position: absolute; */
+    }
+
     .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card{
         background-color: #27374D;
         display: flex;
         justify-content: space-around;
         align-items: flex-start;
         flex-direction: column;
-        height: 11rem;
-        width: 30vw;
+        height: 23vh;
+        width: 34vw;
         color: #8BF5FA;
         padding: 0.3rem 1rem;
         box-shadow: 0px 0px 30px  #888888;
         border-radius: 5px;
     }
     
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card .role{
+        text-transform: capitalize;
+        font-size: 3.5vh;
+        font-weight: 200;
+        margin-top: -0.3rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card label{
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-top: -2rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card p{
+        font-size: 2vh;
+        margin-top: -0.5rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card span{
+        font-weight: 200;
+        margin-top: -1rem;
+    }
+    
     .about-wrapper .about-exp .about-hero-part2{
-        background-color: green;
         background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
         background-size: cover;
         background-attachment: fixed;
-        width: 40%;
+        width: 30%;
         height: 87vh;
         margin-left: 10rem;
     }
     
     .about-wrapper .about-exp .about-hero-part2 img{
         height: 100%;
-        width: 60%;
+        width: 75%;
         margin-left: -10rem;
     }
     
@@ -807,3 +854,5393 @@ align-items: center;
         text-align: left;
         height: 2.5rem;
     }
+
+    /* 
+    
+    repsonsive design for laptop and tab
+    
+    */
+
+    /* for laptop 1441 */
+@media only screen and (max-width: 1441px) {
+    /* about me */
+.about-wrapper .about-hero{
+    /* background-color: #27374D; */
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1{
+        background-color: #F1F6F9;
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section{
+        width: 30%;
+        height: 80%;
+        /* background-color: #ffe4c4; */
+        margin-left: 14vw;
+        text-align: right;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p{
+        font-size: 3vh;
+        font-weight: 600;
+        text-align: right;
+        
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p span{
+        font-size:4.5vh;
+        color: #134E5E;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    /* .about-wrapper .about-hero .about-hero-part1 section label{
+        font-family: "Nunito Sans", sans-serif;
+      font-size: 13vh;
+    } */
+    
+    .about-wrapper .about-hero .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 img{
+        height: 100%;
+        width: 65%;
+        margin-left: -10vw;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.9vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -4rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    /* ------------------------------ education */
+    
+    .about-wrapper .about-edu{
+        background-color: #F1F6F9;
+        width: 95%;
+        display: flex;
+        box-shadow: 0px 0px 30px  #888888;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1{
+            /* background-color: #F1F6F9; */
+            /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+            background-size: cover;
+            background-attachment: fixed;
+            width: 53%;
+            height: 87vh;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1 .edu-1{
+            width: 75%;
+            height: 90%;
+            /* background-color: pink; */
+            /* margin-left: -20vw; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            height: 35vh;
+            width: 19vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 h3{
+            color: white;
+            font-size: 2vh;
+            margin-left: -1rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #134E5E;
+            width: 15vw;
+            padding: 0.7rem;
+            background-color: #F1F6F9;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 2vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p span{
+            margin: 0.3rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p sup{
+            color: black;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2{
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 30vh;
+            width: 20vw;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth{
+            background-color: white;
+            color: black;
+            height: 16vh;
+            width: 7vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+    
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth span{
+            font-size: 0.8rem;
+            background-color: #27374D;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth label{
+    font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth{
+            /* background-color: purple; */
+            height: 25vh;
+            width: 9vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth span{
+            font-size: 24px;
+            height: 5vh;
+            background-color: #27374D;
+            color: white;
+            width: 9.5vw;
+            height: 7.5vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 5px;
+            font-weight: 500;
+    
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth label{
+            background-color: white;
+            height: 16vh;
+            width: 9.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px  #888888;
+            color: black;
+            text-align: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2{
+            width: 100%;
+            height: 95%;
+            /* background-color: #8BF5FA; */
+            /* background-color: pink; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1{
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 25vw;
+            height: 13vh;
+            border-radius: 5px;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 20px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1 p span{
+            font-size: 12px;
+            padding-right: 1.5vw;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2{
+            /* background-color: blueviolet; */
+            width: 27.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2 div{
+            background-color: #27374D;
+            text-align: center;
+            padding: 0rem;
+            height: 7vh;
+            width: 4vw;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 span{
+            font-size: 2.5vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 div{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            height: 6vh;
+            font-size: 2vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1{
+            background-color: white;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: flex-start;
+            margin-top: 0.5rem;
+            width: 24.5vw;
+            height: 8.3vh;
+            border-radius: 5px;
+            padding: 0.7rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div label{
+            font-size: 2.7vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div p{
+            font-size: 2.3vh;
+            margin-top: 1vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2{
+            /* background-color: blueviolet; */
+            width: 27vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2 div{
+            background-color: #27374D;
+            padding: 0.5rem;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 5px;
+            flex-direction: column;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 span{
+            font-size: 2.7vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 div{
+            background-color: hwb(215 15% 70%);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            padding: 0.3rem;
+            font-size: 2vh;
+            text-align: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2{
+            background-color: green;
+            background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 37%;
+            height: 87vh;
+            margin-left: 6rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 img{
+            height: 100%;
+            width: 70%;
+            margin-left: -5rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container{
+        position: relative;
+        bottom: 80vh;
+        right: -4vw;
+        /* background-color: blanchedalmond; */
+        width: 20vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container p{
+            background-color: rgb(39, 55, 77, 0.3);
+            /* background-color: aqua; */
+            backdrop-filter: blur(1rem);
+            padding: 2rem;
+            width: 25vw;
+            margin-left: -1rem;
+            border-radius: 3px;
+            color: #8BF5FA;
+            font-weight: 500;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 20vw;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container img{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            margin-right: 2rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section button{
+            font-size: 16px;
+            color: #8BF5FA;
+            width: 8rem;
+            text-align: left;
+            height: 2.5rem;
+        }
+    
+    /* ---------------------------skills */
+    
+    .about-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills{
+        background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1{
+        
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-wrapper .about-skills .about-hero-part1 section .slider{
+        /* background-color: blue; */
+        /* width: 48vw; */
+        padding: 0.5rem 0.9rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent{
+        /* background-color: blanchedalmond; */
+        height: 70vh;
+        width: 24vw;
+        /* border: 2px solid black; */
+        cursor: pointer;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent img{
+        height: 2rem;
+        width: 2rem;
+        filter: invert(20%) sepia(4%) saturate(4988%) hue-rotate(176deg) brightness(91%) contrast(93%);
+        
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent i{
+        font-size: 2rem;
+        color: #27374D;
+    }
+    
+    
+    .img-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .i-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .parent .x3l{
+    background-color: #27374D;
+    width: 19vw;
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .x2l{
+        background-color: #27374D;
+        width: 19vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+        color: white;
+        border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .xl{
+    background-color: #27374D;
+    width: 11vw;
+    height: 29vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+        margin-right: 7rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 img{
+        height: 100%;
+        width: 70%;
+        margin-left: 15rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.5vw;
+    /* background-color: blanchedalmond; */
+    width: 21vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: 14rem;
+        border-radius: 3px;
+        font-weight: 500;
+        text-align: right;
+        color: #8BF5FA;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: aq; */
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    
+    /* ---------------------------------- expericence */
+.about-wrapper .about-exp{
+    background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1{
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 59%;
+        height: 87vh;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 87vh;
+        width: 100%;
+        
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .allow-scroll{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body{
+        /* background-color: blueviolet; */
+        width: 95%;
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 1rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img{
+        background-color: white;
+        border-radius: 100%;
+        border: 6px solid #27374D;
+        height: 6rem;
+        width: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img img{
+    height: 4rem;
+    width: 4rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .points{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .line{
+        height: 26.2vh;
+        width: 3px;
+        background-color: #8BF5FA;
+        border: 1px solid #27374D;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .small-line{
+        height: 0rem;
+        width: 3px;
+        background-color: #8BF5FA;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .square{
+        height: 0.6rem;
+        width: 0.6rem;
+        background-color: white;
+        border: 4px solid #27374D;
+        /* position: absolute; */
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 26vh;
+        width: 34vw;
+        color: #8BF5FA;
+        padding: 0.3rem 1rem;
+        box-shadow: 0px 0px 30px  #888888;
+        border-radius: 5px;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card .role{
+        text-transform: capitalize;
+        font-size: 3.5vh;
+        font-weight: 200;
+        margin-top: -0.3rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card label{
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-top: -2rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card p{
+        font-size: 2vh;
+        margin-top: -0.5rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card span{
+        font-weight: 200;
+        margin-top: -1rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 33%;
+        height: 87vh;
+        margin-left: 5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 img{
+        height: 100%;
+        width: 74%;
+        margin-left: -5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.3vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: 0.5rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+}
+
+/* for laptop 1024 */
+
+@media only screen and (max-width: 1440px){
+    /* about me */
+.about-wrapper .about-hero{
+    /* background-color: #27374D; */
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1{
+        background-color: #F1F6F9;
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section{
+        width: 30%;
+        height: 80%;
+        /* background-color: #ffe4c4; */
+        margin-left: 14vw;
+        text-align: right;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p{
+        font-size: 3vh;
+        font-weight: 600;
+        text-align: right;
+        
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p span{
+        font-size:4.5vh;
+        color: #134E5E;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    /* .about-wrapper .about-hero .about-hero-part1 section label{
+        font-family: "Nunito Sans", sans-serif;
+      font-size: 13vh;
+    } */
+    
+    .about-wrapper .about-hero .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 img{
+        height: 100%;
+        width: 78%;
+        margin-left: -10vw;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.9vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -4rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    /* ------------------------------ education */
+    
+    .about-wrapper .about-edu{
+        background-color: #F1F6F9;
+        width: 95%;
+        display: flex;
+        box-shadow: 0px 0px 30px  #888888;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1{
+            /* background-color: #F1F6F9; */
+            /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+            background-size: cover;
+            background-attachment: fixed;
+            width: 53%;
+            height: 87vh;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1 .edu-1{
+            width: 75%;
+            height: 90%;
+            /* background-color: pink; */
+            /* margin-left: -20vw; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            height: 35vh;
+            width: 19vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 h3{
+            color: white;
+            font-size: 2vh;
+            margin-left: -1rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #134E5E;
+            width: 15vw;
+            padding: 0.7rem;
+            background-color: #F1F6F9;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 2vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p span{
+            margin: 0.3rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p sup{
+            color: black;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2{
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 30vh;
+            width: 20vw;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth{
+            background-color: white;
+            color: black;
+            height: 16vh;
+            width: 7vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+    
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth span{
+            font-size: 0.8rem;
+            background-color: #27374D;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth label{
+    font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth{
+            /* background-color: purple; */
+            height: 25vh;
+            width: 9vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth span{
+            font-size: 24px;
+            height: 5vh;
+            background-color: #27374D;
+            color: white;
+            width: 9.5vw;
+            height: 7.5vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 5px;
+            font-weight: 500;
+    
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth label{
+            background-color: white;
+            height: 16vh;
+            width: 9.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px  #888888;
+            color: black;
+            text-align: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2{
+            width: 100%;
+            height: 95%;
+            /* background-color: #8BF5FA; */
+            /* background-color: pink; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1{
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 25vw;
+            height: 13vh;
+            border-radius: 5px;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 20px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1 p span{
+            font-size: 12px;
+            padding-right: 1.5vw;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2{
+            /* background-color: blueviolet; */
+            width: 27.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2 div{
+            background-color: #27374D;
+            text-align: center;
+            padding: 0rem;
+            height: 7vh;
+            width: 4vw;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 span{
+            font-size: 2.5vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 div{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            height: 6vh;
+            font-size: 2vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1{
+            background-color: white;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: flex-start;
+            margin-top: 0.5rem;
+            width: 24.5vw;
+            height: 8.3vh;
+            border-radius: 5px;
+            padding: 0.7rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div label{
+            font-size: 2.7vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div p{
+            font-size: 2.3vh;
+            margin-top: 1vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2{
+            /* background-color: blueviolet; */
+            width: 27vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2 div{
+            background-color: #27374D;
+            padding: 0.5rem;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 5px;
+            flex-direction: column;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 span{
+            font-size: 2.7vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 div{
+            background-color: hwb(215 15% 70%);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            padding: 0.3rem;
+            font-size: 2vh;
+            text-align: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2{
+            background-color: green;
+            background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 37%;
+            height: 87vh;
+            margin-left: 6rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 img{
+            height: 100%;
+            width: 84%;
+            margin-left: -5rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container{
+        position: relative;
+        bottom: 80vh;
+        right: -4vw;
+        /* background-color: blanchedalmond; */
+        width: 20vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container p{
+            background-color: rgb(39, 55, 77, 0.3);
+            /* background-color: aqua; */
+            backdrop-filter: blur(1rem);
+            padding: 2rem;
+            width: 25vw;
+            margin-left: -1rem;
+            border-radius: 3px;
+            color: #8BF5FA;
+            font-weight: 500;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 20vw;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container img{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            margin-right: 2rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section button{
+            font-size: 16px;
+            color: #8BF5FA;
+            width: 8rem;
+            text-align: left;
+            height: 2.5rem;
+        }
+    
+    /* ---------------------------skills */
+    
+    .about-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills{
+        background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1{
+        
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-wrapper .about-skills .about-hero-part1 section .slider{
+        /* background-color: blue; */
+        /* width: 48vw; */
+        padding: 0.5rem 0.9rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent{
+        /* background-color: blanchedalmond; */
+        height: 70vh;
+        width: 24vw;
+        /* border: 2px solid black; */
+        cursor: pointer;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent img{
+        height: 2rem;
+        width: 2rem;
+        filter: invert(20%) sepia(4%) saturate(4988%) hue-rotate(176deg) brightness(91%) contrast(93%);
+        
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent i{
+        font-size: 2rem;
+        color: #27374D;
+    }
+    
+    
+    .img-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .i-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .parent .x3l{
+    background-color: #27374D;
+    width: 19vw;
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .x2l{
+        background-color: #27374D;
+        width: 19vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+        color: white;
+        border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .xl{
+    background-color: #27374D;
+    width: 11vw;
+    height: 29vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+        margin-right: 7rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 img{
+        height: 100%;
+        width: 87%;
+        margin-left: 10rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.5vw;
+    /* background-color: blanchedalmond; */
+    width: 21vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: 12rem;
+        border-radius: 3px;
+        font-weight: 500;
+        text-align: right;
+        color: #8BF5FA;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: aq; */
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    
+    /* ---------------------------------- expericence */
+.about-wrapper .about-exp{
+    background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1{
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 59%;
+        height: 87vh;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 87vh;
+        width: 100%;
+        
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .allow-scroll{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body{
+        /* background-color: blueviolet; */
+        width: 95%;
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 1rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img{
+        background-color: white;
+        border-radius: 100%;
+        border: 6px solid #27374D;
+        height: 6rem;
+        width: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img img{
+    height: 4rem;
+    width: 4rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .points{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .line{
+        height: 26.2vh;
+        width: 3px;
+        background-color: #8BF5FA;
+        border: 1px solid #27374D;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .small-line{
+        height: 0rem;
+        width: 3px;
+        background-color: #8BF5FA;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .square{
+        height: 0.6rem;
+        width: 0.6rem;
+        background-color: white;
+        border: 4px solid #27374D;
+        /* position: absolute; */
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 26vh;
+        width: 34vw;
+        color: #8BF5FA;
+        padding: 0.3rem 1rem;
+        box-shadow: 0px 0px 30px  #888888;
+        border-radius: 5px;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card .role{
+        text-transform: capitalize;
+        font-size: 3.5vh;
+        font-weight: 200;
+        margin-top: -0.3rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card label{
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-top: -2rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card p{
+        font-size: 2vh;
+        margin-top: -0.5rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card span{
+        font-weight: 200;
+        margin-top: -1rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 33%;
+        height: 87vh;
+        margin-left: 5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 img{
+        height: 100%;
+        width: 98%;
+        margin-left: -5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -4.3vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -2rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 1025px){
+    /* about me */
+.about-wrapper .about-hero{
+    /* background-color: #27374D; */
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1{
+        background-color: #F1F6F9;
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section{
+        width: 30%;
+        height: 80%;
+        /* background-color: #ffe4c4; */
+        margin-left: 14vw;
+        text-align: right;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p{
+        font-size: 3vh;
+        font-weight: 600;
+        text-align: right;
+        
+    }
+    
+    .about-wrapper .about-hero .about-hero-part1 section p span{
+        font-size:4.5vh;
+        color: #134E5E;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    /* .about-wrapper .about-hero .about-hero-part1 section label{
+        font-family: "Nunito Sans", sans-serif;
+      font-size: 13vh;
+    } */
+    
+    .about-wrapper .about-hero .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 img{
+        height: 100%;
+        width: 78%;
+        margin-left: -10vw;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.9vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -4rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-hero .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    /* ------------------------------ education */
+    
+    .about-wrapper .about-edu{
+        background-color: #F1F6F9;
+        width: 95%;
+        display: flex;
+        box-shadow: 0px 0px 30px  #888888;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1{
+            /* background-color: #F1F6F9; */
+            /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+            background-size: cover;
+            background-attachment: fixed;
+            width: 53%;
+            height: 87vh;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part1 .edu-1{
+            width: 75%;
+            height: 90%;
+            /* background-color: pink; */
+            /* margin-left: -20vw; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            height: 35vh;
+            width: 19vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 h3{
+            color: white;
+            font-size: 2vh;
+            margin-left: -1rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: #134E5E;
+            width: 15vw;
+            padding: 0.7rem;
+            background-color: #F1F6F9;
+            border-radius: 5px;
+            font-weight: 500;
+            font-size: 2vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p span{
+            margin: 0.3rem;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-1 p sup{
+            color: black;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2{
+            /* background-color: yellow; */
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            height: 30vh;
+            width: 20vw;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 section{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth{
+            background-color: white;
+            color: black;
+            height: 16vh;
+            width: 7vw;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+    
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth span{
+            font-size: 0.8rem;
+            background-color: #27374D;
+            color: white;
+            padding: 0.5rem;
+            border-radius: 3px;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .tenth label{
+    font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth{
+            /* background-color: purple; */
+            height: 25vh;
+            width: 9vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth span{
+            font-size: 24px;
+            height: 5vh;
+            background-color: #27374D;
+            color: white;
+            width: 9.5vw;
+            height: 7.5vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 5px;
+            font-weight: 500;
+    
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-1 .edu-div-2 .twelveth label{
+            background-color: white;
+            height: 16vh;
+            width: 9.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 20px  #888888;
+            color: black;
+            text-align: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2{
+            width: 100%;
+            height: 95%;
+            /* background-color: #8BF5FA; */
+            /* background-color: pink; */
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1{
+            background-color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 25vw;
+            height: 13vh;
+            border-radius: 5px;
+            padding: 0.8rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 20px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-1 p span{
+            font-size: 12px;
+            padding-right: 1.5vw;
+            font-weight: 500;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2{
+            /* background-color: blueviolet; */
+            width: 27.5vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-2 div{
+            background-color: #27374D;
+            text-align: center;
+            padding: 0rem;
+            height: 7vh;
+            width: 4vw;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 5px;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 span{
+            font-size: 2.5vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-1 .bachelors-3 div{
+            background-color: #27374D;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            height: 6vh;
+            font-size: 2vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1{
+            background-color: white;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: flex-start;
+            margin-top: 0.5rem;
+            width: 24.5vw;
+            height: 8.3vh;
+            border-radius: 5px;
+            padding: 0.7rem;
+            margin-bottom: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div label{
+            font-size: 2.7vh;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-1 div p{
+            font-size: 2.3vh;
+            margin-top: 1vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2{
+            /* background-color: blueviolet; */
+            width: 27vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-2 div{
+            background-color: #27374D;
+            padding: 0.5rem;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 5px;
+            flex-direction: column;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3{
+            background-color: #8BF5FA;
+            width: 25vw;
+            border-radius: 5px;
+            padding: 0.5rem;
+            margin-top: 0.8rem;
+            box-shadow: 0px 0px 30px  #888888;
+        }
+
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 span{
+            font-size: 2.7vh;
+        }
+    
+        .about-wrapper .about-edu .about-hero-part1 .edu-2 .edu-div-2 .masters-3 div{
+            background-color: hwb(215 15% 70%);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+            margin: 8px 0px;
+            border-radius: 5px;
+            padding: 0.3rem;
+            font-size: 2vh;
+            text-align: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2{
+            background-color: green;
+            background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+            background-size: cover;
+            background-attachment: fixed;
+            width: 37%;
+            height: 87vh;
+            margin-left: 6rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 img{
+            height: 100%;
+            width: 84%;
+            margin-left: -5rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container{
+        position: relative;
+        bottom: 80vh;
+        right: -4vw;
+        /* background-color: blanchedalmond; */
+        width: 20vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container p{
+            background-color: rgb(39, 55, 77, 0.3);
+            /* background-color: aqua; */
+            backdrop-filter: blur(1rem);
+            padding: 2rem;
+            width: 25vw;
+            margin-left: -1rem;
+            border-radius: 3px;
+            color: #8BF5FA;
+            font-weight: 500;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            width: 20vw;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container img{
+            height: 3rem;
+            width: 3rem;
+            border-radius: 100%;
+            margin-right: 2rem;
+        }
+        
+        .about-wrapper .about-edu .about-hero-part2 .aboutme-container section button{
+            font-size: 16px;
+            color: #8BF5FA;
+            width: 8rem;
+            text-align: left;
+            height: 2.5rem;
+        }
+    
+    /* ---------------------------skills */
+    
+    .about-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills{
+        background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1{
+        
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 60%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section{
+        /* background-color: aqua; */
+        height: 85%;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .about-wrapper .about-skills .about-hero-part1 section .slider{
+        /* background-color: blue; */
+        /* width: 48vw; */
+        padding: 0.5rem 0.9rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent{
+        /* background-color: blanchedalmond; */
+        height: 70vh;
+        width: 24vw;
+        /* border: 2px solid black; */
+        cursor: pointer;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent img{
+        height: 2rem;
+        width: 2rem;
+        filter: invert(20%) sepia(4%) saturate(4988%) hue-rotate(176deg) brightness(91%) contrast(93%);
+        
+    }
+    
+    .about-wrapper .about-skills .about-hero-part1 section .slider .parent i{
+        font-size: 2rem;
+        color: #27374D;
+    }
+    
+    
+    .img-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .i-container{
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #F1F6F9;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-top: 0.7rem; */
+        border-radius: 100%;
+        border: 6px solid #8BF5FA;
+        box-shadow: 0px 0px 10px #8BF5FA;
+    }
+    
+    .parent .x3l{
+    background-color: #27374D;
+    width: 19vw;
+    height: 32vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .x2l{
+        background-color: #27374D;
+        width: 19vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+        color: white;
+        border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+
+    }
+    
+    .parent .xl{
+    background-color: #27374D;
+    width: 11vw;
+    height: 29vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 0.7rem;
+    /* flex-direction: column; */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    text-align: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 40%;
+        height: 87vh;
+        margin-right: 7rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 img{
+        height: 100%;
+        width: 87%;
+        margin-left: 10rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -3.5vw;
+    /* background-color: blanchedalmond; */
+    width: 21vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: 12rem;
+        border-radius: 3px;
+        font-weight: 500;
+        text-align: right;
+        color: #8BF5FA;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        /* background-color: aq; */
+        width: 20vw;
+    }
+    
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-skills .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+    
+    
+    /* ---------------------------------- expericence */
+.about-wrapper .about-exp{
+    background-color: #F1F6F9;
+    width: 95%;
+    display: flex;
+    box-shadow: 0px 0px 30px  #888888;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1{
+        /* background-color: #F1F6F9; */
+        /* background: url("../source/mymind-wHJ5L9KGTl4-unsplash.jpg") no-repeat center; */
+        background-size: cover;
+        background-attachment: fixed;
+        width: 59%;
+        height: 87vh;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 87vh;
+        width: 100%;
+        
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .allow-scroll{
+        overflow-y: scroll;
+        overflow-x: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body{
+        /* background-color: blueviolet; */
+        width: 95%;
+        height: 25vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2rem 1rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img{
+        background-color: white;
+        border-radius: 100%;
+        border: 6px solid #27374D;
+        height: 6rem;
+        width: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0px 0px 30px  #888888;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-img img{
+    height: 4rem;
+    width: 4rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .points{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .line{
+        height: 26.2vh;
+        width: 3px;
+        background-color: #8BF5FA;
+        border: 1px solid #27374D;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .small-line{
+        height: 0rem;
+        width: 3px;
+        background-color: #8BF5FA;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .square{
+        height: 0.6rem;
+        width: 0.6rem;
+        background-color: white;
+        border: 4px solid #27374D;
+        /* position: absolute; */
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card{
+        background-color: #27374D;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 26vh;
+        width: 34vw;
+        color: #8BF5FA;
+        padding: 0.3rem 1rem;
+        box-shadow: 0px 0px 30px  #888888;
+        border-radius: 5px;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card .role{
+        text-transform: capitalize;
+        font-size: 3.5vh;
+        font-weight: 200;
+        margin-top: -0.3rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card label{
+        font-size: 2.5vh;
+        font-weight: 200;
+        margin-top: -2rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card p{
+        font-size: 2vh;
+        margin-top: -0.5rem;
+    }
+
+    .about-wrapper .about-exp .about-hero-part1 section .exp-body .exp-card span{
+        font-weight: 200;
+        margin-top: -1rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2{
+        background: url("../source/david-becker-crs2vlkSe98-unsplash.jpg") no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 33%;
+        height: 87vh;
+        margin-left: 5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 img{
+        height: 100%;
+        width: 98%;
+        margin-left: -5rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container{
+    position: relative;
+    bottom: 80vh;
+    right: -4.3vw;
+    /* background-color: blanchedalmond; */
+    width: 20vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container p{
+        background-color: rgb(39, 55, 77, 0.3);
+        /* background-color: aqua; */
+        backdrop-filter: blur(1rem);
+        padding: 2rem;
+        width: 25vw;
+        margin-left: -2rem;
+        border-radius: 3px;
+        color: #8BF5FA;
+        font-weight: 500;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container img{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 100%;
+        margin-right: 2rem;
+    }
+    
+    .about-wrapper .about-exp .about-hero-part2 .aboutme-container section button{
+        font-size: 16px;
+        color: #8BF5FA;
+        width: 8rem;
+        text-align: left;
+        height: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .about-wrapper .about-hero .about-hero-part1 section{
+        width: 40%;
+        height: 80%;
+        /* background-color: blanchedalmond; */
+        margin-left: 5vw;
+        text-align: right;
+    }
+    .about-wrapper .about-hero .about-hero-part1 section p span{
+        font-size: 4vh;
+        color: #134E5E;
+        text-transform: uppercase;
+        font-weight: 600;
+        /* background-color: pink; */
+    }
+}
+
+/* new design about me page */
+@media only screen and (max-width: 991px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* flex-direction: column; */
+        width: 100vw;
+        height: 100vh;
+        flex-wrap: wrap;
+        /* background-color: black; */
+        background-color: #F1F6F9;
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 60vw;
+        height: 110vh;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        width: 40vw;
+        height: 110vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60vw;
+    }
+
+    .about-section-990 .about-me{
+        /* background-color: blueviolet; */
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 45vh;
+        width: 27vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 45vh;
+        width: 27vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 20px;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 45vh;
+        width: 27vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 40vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2vw 0vw;
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 10vh;
+        width: 7vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 85%;
+        width: 85%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 16vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 15vw;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 1.5vw;
+        width: 16vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 1.3vw;
+        padding: 0.6vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: #F1F6F9;
+        border: 2px solid black;
+        height: 50vh;
+        width: 55vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 4px 4px;
+        border-radius: 15px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: tan; */
+        width: 53vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 33vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #C2DEDC;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 8vh;
+        width: 8vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #C2DEDC;
+       height: 30vh;
+       width: 25vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 2vw;
+        padding: 1vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 23vw;
+        height: 18vh;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 1.5vw;
+        padding: 1vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #C2DEDC;
+       height: 30vh;
+       width: 22vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 2vw;
+        padding: 1vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 23vw;
+        height: 18vh;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 1.5vw;
+        padding: 1vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 37vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        margin: 0.9vw;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 3vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 15vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 6vh;
+        width: 6vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 19vw;
+        height: 15vw;
+        margin: 0.9vw;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 18vw;
+    height: 10vh;
+    font-size: 2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 8.5vh;
+        width: 5.5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 18vw;
+        height: 10vh;
+        font-size: 2vw;
+    font-weight: 500;
+    border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 70vh;
+        width: 37vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 36vw;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 2.5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: #F1F6F9;
+        width: 36vw;
+        padding: 0.5vw;
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 0.9vw;
+        padding: 0.8vw;
+        border: 2px solid #8BF5FA;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.3vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 4vh;
+        width: 4vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:7vw;
+        
+        border: 2px solid white;
+
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 769px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        flex-wrap: nowrap;
+        /* background-color: black; */
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95vw;
+        height: 120vh;
+        margin: 2vw;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        /* background-color: turquoise; */
+        width: 95vw;
+        height: 110vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        /* background-color: blueviolet; */
+
+    }
+
+    .about-section-990 .about-me{
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 48vh;
+        width: 43vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 48vh;
+        width: 43vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 48vh;
+        width: 43vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 3vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 42.5vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2vw 0vw;
+        /* background-color: yellowgreen; */
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 11vw;
+        width: 11vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 23vw;
+        height: 20vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 2vw;
+        width: 23vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 1.7vw;
+        padding: 0.6vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: #F1F6F9;
+        border: 2px solid black;
+        height: 55vh;
+        width:  89vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 4px 4px;
+        border-radius: 15px;
+        
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: tan; */
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 31vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #C2DEDC;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 8vh;
+        width: 8vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 3vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #C2DEDC;
+       height: 28vh;
+       width: 35vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 34vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 2vw;
+        padding: 1.5vw 1.8vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #C2DEDC;
+       height: 28vh;
+       width: 35vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 34vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 2vw;
+        padding: 1.5vw 3vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 90vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 0.9vw;
+        border-radius: 10px;
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 4vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 21vw;
+        font-weight: 500;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 15vh;
+        width: 15vw;
+        /* background-color: yellow; */
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 45vw;
+        height: 20vw;
+        margin: 0.9vw;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 40vw;
+    height: 10vh;
+    font-size: 2.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 0.5vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 11vh;
+        width: 9vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -6vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 40vw;
+        height: 10vh;
+        font-size: 2.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 0.5vw;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 80vh;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 3.5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: #F1F6F9;
+        width: 89vw;
+        padding: 0.5vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 2vw;
+        padding: 0vw;
+        height: 25vw;
+        width: 19vw;
+        border: 2px solid #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+        font-size: 5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 5vh;
+        width: 5vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:12vw;
+
+        border: 2px solid white;
+        
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
+
+@media only screen and (max-width: 621px) and (min-width:425px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        flex-wrap: nowrap;
+        /* background-color: black; */
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95vw;
+        height: 180vh;
+        margin: 2vw;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        /* background-color: turquoise; */
+        width: 95vw;
+        height: 120vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        height: 110vh;
+        /* background-color: blueviolet; */
+        flex-direction: column;
+
+    }
+
+    .about-section-990 .about-me{
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 55vh;
+        width: 90vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 4vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 48vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2.5vw 0vw;
+        /* background-color: yellowgreen; */
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 14vw;
+        width: 14vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 36vw;
+        height: 25vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 3vw;
+        width: 36vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 2.5vw;
+        padding: 0.7vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: #F1F6F9;
+        border: 2px solid black;
+        height: 55vh;
+        width:  90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: tan; */
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 31vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #C2DEDC;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 8vh;
+        width: 8vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 3.5vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #C2DEDC;
+       height: 30vh;
+       width: 35vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2.3vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 34vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 2.3vw;
+        padding: 1.5vw 1.8vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #C2DEDC;
+       height: 30vh;
+       width: 35vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2.3vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 34vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 2.3vw;
+        padding: 1.5vw 3vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 90vw;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 0.9vw;
+        border-radius: 10px;
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 4vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 21vw;
+        font-weight: 500;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 15vh;
+        width: 15vw;
+        /* background-color: yellow; */
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 45vw;
+        height: 20vw;
+        margin: 0.9vw;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 40vw;
+    height: 9.5vh;
+    font-size: 2.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 0.5vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 11vh;
+        width: 11vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -5vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 40vw;
+        height: 9.5vh;
+        font-size: 2.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 1.5vw;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 80vh;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 3.5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: #F1F6F9;
+        width: 89vw;
+        padding: 0.5vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 2vw;
+        padding: 0vw;
+        height: 25vw;
+        width: 19vw;
+        border: 2px solid #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 2vw;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.8vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+        font-size: 5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 5vh;
+        width: 5vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:12vw;
+
+        border: 2px solid white;
+        
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
+
+@media only screen and (max-width:426px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        flex-wrap: nowrap;
+        /* background-color: black; */
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95vw;
+        height: 180vh;
+        margin: 2vw;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        /* background-color: turquoise; */
+        width: 95vw;
+        height: 120vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        height: 110vh;
+        /* background-color: blueviolet; */
+        flex-direction: column;
+
+    }
+
+    .about-section-990 .about-me{
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 7vw;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 55vh;
+        width: 90vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 5vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 48vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2.5vw 0vw;
+        /* background-color: yellowgreen; */
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 18vw;
+        width: 18vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 45vw;
+        height: 33vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 4vw;
+        width: 45vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 3.3vw;
+        padding: 1vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: #F1F6F9;
+        border: 2px solid black;
+        height: 55vh;
+        width:  90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: tan; */
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 31vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #C2DEDC;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 10vh;
+        width: 10vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 5vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #C2DEDC;
+       height: 30vh;
+       width: 38vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 38vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 2.8vw;
+        padding: 1.5vw 1.8vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #C2DEDC;
+       height: 30vh;
+       width: 35vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 34vw;
+        height: 18vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 2.8vw;
+        padding: 1.5vw 3vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 0.9vw;
+        border-radius: 10px;
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 4vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 21vw;
+        font-weight: 500;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 15vh;
+        width: 15vw;
+        /* background-color: yellow; */
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 43vw;
+        height: 35vw;
+        margin: 0.9vw;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 40vw;
+    height: 9.5vh;
+    font-size: 3.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 1vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 9vh;
+        width: 13vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -1vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 40vw;
+        height: 9.5vh;
+        font-size: 3.5vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 1vw;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 83vh;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: #F1F6F9;
+        width: 89vw;
+        padding: 0.5vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 2vw;
+        padding: 0vw;
+        height: 40vw;
+        width: 31vw;
+        border: 2px solid #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.4vw;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.5vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+        font-size: 7.5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 7.5vh;
+        width: 7.5vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:19vw;
+
+        border: 2px solid white;
+        
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
+
+@media only screen and (max-width:376px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        flex-wrap: nowrap;
+        /* background-color: black; */
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95vw;
+        height: 180vh;
+        margin: 2vw;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        /* background-color: turquoise; */
+        width: 95vw;
+        height: 120vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        height: 110vh;
+        /* background-color: blueviolet; */
+        flex-direction: column;
+
+    }
+
+    .about-section-990 .about-me{
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 7vw;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 55vh;
+        width: 90vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 5vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 48vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2.5vw 0vw;
+        /* background-color: yellowgreen; */
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 18vw;
+        width: 18vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 45vw;
+        height: 33vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 4vw;
+        width: 45vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 3.3vw;
+        padding: 1vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: #F1F6F9;
+        border: 2px solid black;
+        height: 55vh;
+        width:  90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: tan; */
+        width: 85vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 31vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #C2DEDC;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 10vh;
+        width: 10vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 5vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #C2DEDC;
+       height: 30vh;
+       width: 40vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 38vw;
+        height: 20vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 4vw;
+        padding: 1.5vw 1.8vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #C2DEDC;
+       height: 30vh;
+       width: 38vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 38vw;
+        height: 20vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 3.7vw;
+        padding: 1.5vw 3vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 600;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 0.9vw;
+        border-radius: 10px;
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 4vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 21vw;
+        font-weight: 500;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 15vh;
+        width: 15vw;
+        /* background-color: yellow; */
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 43vw;
+        height: 35vw;
+        margin: 0.9vw;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 40vw;
+    height: 9.5vh;
+    font-size: 4vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 9vh;
+        width: 15vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -1vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 40vw;
+        height: 9.5vh;
+        font-size: 4vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 83vh;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: #F1F6F9;
+        width: 89vw;
+        padding: 0.5vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 2vw;
+        padding: 0vw;
+        height: 40vw;
+        width: 31vw;
+        border: 2px solid #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.4vw;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.5vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+        font-size: 7.5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 7.5vh;
+        width: 7.5vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:19vw;
+
+        border: 2px solid white;
+        
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
