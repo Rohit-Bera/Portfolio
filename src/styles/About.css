@@ -6247,6 +6247,554 @@ align-items: center;
 
 }
 
+@media only screen and (min-width: 390px) and (max-width: 400px) {
+    /* about me */
+    .about-section-990{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: auto;
+        flex-wrap: nowrap;
+        /* background-color: black; */
+    }  
+
+    .about-section-990 .wrapper-container-1{
+        background-color: #F1F6F9;
+        /* background-color: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95vw;
+        height: 180vh;
+        margin: 2vw;
+    }
+
+    .about-section-990 .wrapper-container-2{
+        background-color: #F1F6F9;
+        /* background-color: turquoise; */
+        width: 95vw;
+        height: 120vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .wrapper-container-1 .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+        height: 110vh;
+        /* background-color: blueviolet; */
+        flex-direction: column;
+
+    }
+
+    .about-section-990 .about-me{
+        background: url("../resources/dev.png") no-repeat center;
+        background-size: cover;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        /* justify-content: flex-start; */
+        flex-direction: column;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-me label{
+        border-radius: 10px;
+        background-color: rgb(39, 55, 77, 0.3);
+        font-family: apercu, sans-serif;
+        backdrop-filter: blur(0.1rem);
+        color: white;
+        height: 50vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 7vw;
+        text-shadow: -2px 2px 0 #000,
+                          2px 2px 0 #000,
+                         2px -2px 0 #000,
+                        -2px -2px 0 #000;
+    }
+
+    .about-section-990 .about-exp{
+        background-color: #27374D;
+        height: 55vh;
+        width: 90vw;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-exp label{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-size: 5vw;
+        padding: 2vw 0vw;
+        letter-spacing: 1vw;
+        background-color: #8BF5FA;
+    }
+    .about-section-990 .about-exp section{
+        overflow-y: scroll;
+        /* background-color: green; */
+        height: 48vh;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-body{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 2.5vw 0vw;
+        /* background-color: yellowgreen; */
+    }
+
+    .about-section-990 .about-exp section .exp-img{
+        background-color: white;
+        height: 18vw;
+        width: 18vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-img img{
+        height: 90%;
+        width: 90%;
+    }
+
+    .about-section-990 .about-exp section .exp-desc{
+        background-color: #F1F6F9;
+        width: 45vw;
+        height: 33vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 5px;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .role{
+        background-color: #8BF5FA;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 4vw;
+        width: 45vw;
+        text-align: center;
+    }
+
+    .about-section-990 .about-exp section .exp-desc .performance{
+        font-weight: 500;
+        font-size: 3.3vw;
+        padding: 1vw;
+    }
+
+    .about-section-990 .about-edu-1{
+        background-color: white;
+        border: 2px solid black;
+        height: 55vh;
+        width:  90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 15px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: tan; */
+        width: 85vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 31vh;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name{
+        border: 2px solid black;
+        background-color: #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80vw;
+        padding: 0.5vw;
+        margin: 0.5vw;
+        height: 10vh;
+        border-radius: 10px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name .icon{
+        height: 10vh;
+        width: 10vw;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .uni-name label{
+        text-transform: uppercase;
+        font-family: apercu,sans-serif;
+        font-size: 5vw;
+        font-weight: 500;
+        text-align: center;
+        color: black;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni{
+       background-color: #8BF5FA;
+       height: 30vh;
+       width: 40vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 38vw;
+        height: 20vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .ug-uni .uni-marks label{
+        font-size: 4vw;
+        padding: 1.5vw 1.8vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 500;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni{
+        background-color: #8BF5FA;
+       height: 30vh;
+       width: 38vw;
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-direction: column;
+       padding: 0.5vw;
+       border-radius: 10px;
+       border: 2px solid black;
+       box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-course label{
+        background-color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 3.5vw;
+        padding: 1vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        border: 2px solid black;
+        border-radius: 8px;
+        box-shadow: 4px 4px;
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 38vw;
+        height: 20vh;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-1 .pg-uni .uni-marks label{
+        font-size: 3.7vw;
+        padding: 1.5vw 3vw;
+        margin: 0.5vw;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 3px 3px;
+        font-weight: 600;
+        background-color: white;
+    }
+
+    .about-section-990 .about-edu-2{
+        background-color: black;
+        height: 25vh;
+        width: 90vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+
+    .about-section-990 .about-edu-2 .school-name{
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        margin: 0.9vw;
+        border-radius: 10px;
+        width: 40vw;
+        height: 22vh;
+    }
+
+    .about-section-990 .about-edu-2 .school-name label{
+        font-size: 4vw;
+        font-family: apercu , sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        width: 21vw;
+        font-weight: 500;
+        /* background-color: violet; */
+    }
+
+    .about-section-990 .about-edu-2 .school-name .icon{
+        height: 15vh;
+        width: 15vw;
+        /* background-color: yellow; */
+    }
+
+    .about-section-990 .about-edu-2 .school-marks{
+        width: 43vw;
+        height: 35vw;
+        margin: 0.9vw;
+        /* background-color: aqua; */
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10{
+    background-color: white;
+    font-family: apercu , sans-serif;
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    width: 40vw;
+    height: 9.5vh;
+    font-size: 4vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th10 .circle , 
+    .about-section-990 .about-edu-2 .school-marks .th12 .circle{
+        border-radius: 100%;
+        background-color: black;
+        color: white;
+        height: 9vh;
+        width: 15vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -1vw;
+    }
+
+    .about-section-990 .about-edu-2 .school-marks .th12{
+        background-color: white;
+        font-family: apercu , sans-serif;
+        display: flex;
+            justify-content: space-around;
+            align-items: center;
+        width: 40vw;
+        height: 9.5vh;
+        font-size: 4vw;
+    font-weight: 500;
+    border-radius: 10px;
+    margin-top: 2.5vw;
+    }
+
+    .about-section-990 .about-skills{
+        background-color: #27374D;
+        /* background-color: tomato; */
+        height: 83vh;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills label{
+        background-color: #134E5E;
+        color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        width: 89vw;
+        height: 8vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0.5vw;
+        font-family: apercu , sans-serif;
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: 2vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body{
+        background-color: white;
+        width: 89vw;
+        padding: 0.5vw;
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        overflow-y: scroll;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #134E5E;
+        border-radius: 10px;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card{
+        background-color: #134E5E;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #888888;
+        margin: 2vw;
+        padding: 0vw;
+        height: 40vw;
+        width: 31vw;
+        border: 2px solid #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .heading{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.4vw;
+        font-weight: 500;
+        letter-spacing: 0.3vw;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card .title{
+        color: white;
+        text-transform: uppercase;
+        font-size: 3.5vw;
+        font-weight: 500;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card i{
+        color: #8BF5FA;
+        font-size: 7.5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-section-990 .about-skills .card-body .skill-card img{
+        filter: invert(84%) sepia(32%) saturate(590%) hue-rotate(144deg) brightness(103%) contrast(96%);
+        height: 7.5vh;
+        width: 7.5vw;
+    }
+
+    /* skills */
+
+    @property --p{
+        syntax: '<number>';
+        inherits: true;
+        initial-value: 0;
+      }
+      
+      .pie {
+        --p:20px;
+        --b:5px;
+        --c:darkred;
+        --w:19vw;
+
+        border: 2px solid white;
+        
+        width:var(--w);
+        aspect-ratio:1;
+        position:relative;
+        display:inline-grid;
+        margin:5px;
+        border-radius: 100%;
+        place-content:center;
+        font-size:25px;
+        font-weight:bold;
+        font-family:sans-serif;
+      }
+      .pie:before,
+      .pie:after {
+        content:"";
+        position:absolute;
+        border-radius:50%;
+      }
+      .pie:before {
+        inset:0;
+        background:
+          radial-gradient(farthest-side,var(--c) 98%,#0000) top/var(--b) var(--b) no-repeat,
+          conic-gradient(var(--c) calc(var(--p)*1%),#0000 0);
+        -webkit-mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+                mask:radial-gradient(farthest-side,#0000 calc(99% - var(--b)),#000 calc(100% - var(--b)));
+      }
+      .pie:after {
+        inset:calc(50% - var(--b)/2);
+        background:var(--c);
+        transform:rotate(calc(var(--p)*3.6deg)) translateY(calc(50% - var(--w)/2));
+      }
+      .animate {
+        animation:p 1s .5s both;
+      }
+
+      .about-section-990 .about-skills .skill-card{
+        /* color: white; */
+        background-color: pink;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5vw;
+    }
+
+}
+
 @media only screen and (max-width:321px) {
     /* about me */
     .about-section-990{
