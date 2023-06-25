@@ -100,7 +100,10 @@ const Work = () => {
       projectTitle: "Gold App",
       projectDescription: "E-commerce platform to buy jwelleries online.",
       projectLongDescription:
-        "Gold app built with MERN Stack , an E-commerce web app where user can buy gold jwelleries online . user will get option to add jwelleries to wishlist , add to cart , as well as can place order. please open this project in laptop!",
+        "Gold app built with MERN Stack , an E-commerce web app where user can buy gold jwelleries online . user will get option to add jwelleries to wishlist , add to cart , as well as can place order. " +
+        <br /> +
+        <br /> +
+        "please open this project in laptop!",
       techStack: ["reactjs", "nodejs", "expressjs", "mongodb"],
       githubRepoFrontend: "https://github.com/Rohit-Bera/Frontend-Rohit-Gold",
       githubRepoBackend: "https://github.com/Rohit-Bera/Backend-Rohit-Gold",
@@ -115,7 +118,10 @@ const Work = () => {
       projectDescription:
         "E-commerce platform to buy medicines and health products.",
       projectLongDescription:
-        "Pharmacy app built with MERN Stack , an E-commerce web app where user can buy medicinesa and helath product online . user will get option to add medicines to wishlist , add to cart , as well as can place order. User can also upload prescription to order medicines. please open this project in laptop!",
+        "Pharmacy app built with MERN Stack , an E-commerce web app where user can buy medicinesa and helath product online . user will get option to add medicines to wishlist , add to cart , as well as can place order. User can also upload prescription to order medicines." +
+        <br /> +
+        <br /> +
+        "please open this project in laptop!",
       techStack: ["reactjs", "nodejs", "expressjs", "mongodb"],
       githubRepoFrontend: "https://github.com/Rohit-Bera/medshub-frontend",
       githubRepoBackend: "https://github.com/Rohit-Bera/medshub-server",
