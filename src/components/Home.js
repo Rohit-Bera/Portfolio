@@ -91,19 +91,19 @@ const Home = () => {
             </div>
           </div>
           <div className="profile-whatidid">
-            <Link to="/projectsIdid">
+            <Link to="/myprojects">
               <div>
                 <i class="fab fa-brands fa-slack"></i>
                 <h2>Product Planner</h2>
               </div>
             </Link>
-            <Link to="/projectsIdid">
+            <Link to="/myprojects">
               <div>
                 <i class="fab fa-brands fa-squarespace"></i>
                 <h2>Product Designer</h2>
               </div>
             </Link>
-            <Link to="/projectsIdid">
+            <Link to="/myprojects">
               <div>
                 <i class="fab fa-brands fa-twitch"></i>
                 <h2>Freelancer</h2>
@@ -273,7 +273,7 @@ const Home = () => {
               <span>there ...👉</span>
             )}
           </span>
-          <Link to="/projectsIdid">
+          <Link to="/myprojects">
             <button>
               <label>check out</label>
               <CodeBracketIcon height={25} width={25} />
@@ -287,7 +287,7 @@ const Home = () => {
         <div className="service-head">
           <label>Checkout</label>
           <p>Newly Launched Services</p>
-          <Link to="/serviceIprovide">
+          <Link to="/myservice">
             <button>
               <span>view all services</span>
               <ForwardIcon height={25} width={25} color="#27374D" />

@@ -250,12 +250,12 @@ const About = () => {
                     <label>bca</label>
                   </section>
                   <section className="uni-marks">
-                    <label>9.37</label>
-                    <label>9.23</label>
-                    <label>9.29</label>
-                    <label>8.76</label>
-                    <label>9.14</label>
-                    <label>8.58</label>
+                    <label>1* 9.37</label>
+                    <label>2* 9.23</label>
+                    <label>3* 9.29</label>
+                    <label>4* 8.76</label>
+                    <label>5* 9.14</label>
+                    <label>6* 8.58</label>
                   </section>
                 </div>
                 <div className="pg-uni">

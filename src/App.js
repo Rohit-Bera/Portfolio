@@ -8,6 +8,7 @@ import Home from "./components/Home";
 import Error404 from "./components/Error404";
 import ContactMe from "./components/ContactMe";
 import About from "./components/About";
+import ViewWork from "./components/ViewWork";
 // inspiration
 // https://dribbble.com/shots/21428580-Daniasyrofi-Personal-Portfolio-Landing-Page
 // https://dribbble.com/shots/21502354-Daniasyrofi-Personal-Portfolio-Landing-Page-Responsive
@@ -23,12 +24,16 @@ function App() {
       element: <About />,
     },
     {
-      path: "/serviceIprovide",
+      path: "/myservice",
       element: <Service />,
     },
     {
-      path: "/projectsIdid",
+      path: "/myprojects",
       element: <Work />,
+    },
+    {
+      path: "/view-work",
+      element: <ViewWork />,
     },
     {
       path: "/contactme",

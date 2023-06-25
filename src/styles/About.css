@@ -5720,7 +5720,7 @@ align-items: center;
         align-items: center;
         flex-direction: column;
         width: 95vw;
-        height: 180vh;
+        height: 175vh;
         margin: 2vw;
     }
 
@@ -5740,7 +5740,7 @@ align-items: center;
         justify-content: space-between;
         align-items: center;
         width: 90vw;
-        height: 110vh;
+        height: 111.5vh;
         /* background-color: blueviolet; */
         flex-direction: column;
 
@@ -5858,7 +5858,7 @@ align-items: center;
     .about-section-990 .about-edu-1{
         background-color: white;
         border: 2px solid black;
-        height: 55vh;
+        height: 50vh;
         width:  90vw;
         display: flex;
         justify-content: space-around;
@@ -6268,7 +6268,7 @@ align-items: center;
         align-items: center;
         flex-direction: column;
         width: 95vw;
-        height: 180vh;
+        height: 175vh;
         margin: 2vw;
     }
 
@@ -6288,7 +6288,7 @@ align-items: center;
         justify-content: space-between;
         align-items: center;
         width: 90vw;
-        height: 110vh;
+        height: 111.5vh;
         /* background-color: blueviolet; */
         flex-direction: column;
 
@@ -6406,7 +6406,7 @@ align-items: center;
     .about-section-990 .about-edu-1{
         background-color: white;
         border: 2px solid black;
-        height: 55vh;
+        height: 50vh;
         width:  90vw;
         display: flex;
         justify-content: space-around;
@@ -6609,8 +6609,8 @@ align-items: center;
     display: flex;
         justify-content: space-around;
         align-items: center;
-    width: 40vw;
-    height: 9.5vh;
+    width: 43vw;
+    height: 12vh;
     font-size: 4vw;
     font-weight: 500;
     border-radius: 10px;
@@ -6623,7 +6623,8 @@ align-items: center;
         background-color: black;
         color: white;
         height: 9vh;
-        width: 15vw;
+        margin: 1vw;
+        width: 19vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -6636,8 +6637,8 @@ align-items: center;
         display: flex;
             justify-content: space-around;
             align-items: center;
-        width: 40vw;
-        height: 9.5vh;
+        width: 43vw;
+        height: 12vh;
         font-size: 4vw;
     font-weight: 500;
     border-radius: 10px;
@@ -6816,7 +6817,7 @@ align-items: center;
         align-items: center;
         flex-direction: column;
         width: 95vw;
-        height: 180vh;
+        height: 175vh;
         margin: 2vw;
     }
 
@@ -6836,7 +6837,7 @@ align-items: center;
         justify-content: space-between;
         align-items: center;
         width: 90vw;
-        height: 110vh;
+        height: 111.5vh;
         /* background-color: blueviolet; */
         flex-direction: column;
 
@@ -6954,7 +6955,7 @@ align-items: center;
     .about-section-990 .about-edu-1{
         background-color: white;
         border: 2px solid black;
-        height: 55vh;
+        height: 50vh;
         width:  90vw;
         display: flex;
         justify-content: space-around;
