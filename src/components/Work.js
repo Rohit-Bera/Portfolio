@@ -78,8 +78,15 @@ const Work = () => {
       projectDescription:
         "app where freelancers complete the tasks provided by the Clients.",
       projectLongDescription:
-        "A basic freelancing platform where a client will give the task and the freelancer will ",
-      techStack: ["react-native", "expo-cli", "nodejs", "expressjs", "mongodb"],
+        "A basic freelancing platform where a client will give the task and the freelancers will bid for the tasks and will complete the task. This System consists of a chat system where freelancer and client can communicate with each other related to tasks. This system also contains payment gateway for client to pay to the freelancer and freelancers to withdraw from there wallet ",
+      techStack: [
+        "react-native",
+        "expo-cli",
+        "nodejs",
+        "expressjs",
+        "mongodb",
+        "stripe",
+      ],
       githubRepoFrontend: "https://github.com/Montu1302/assignment-frontend",
       githubRepoBackend: "https://github.com/Rohit-Bera/assignment-backend",
       projectLink:
@@ -92,10 +99,11 @@ const Work = () => {
       projectLogo: goldapplogo,
       projectTitle: "Gold App",
       projectDescription: "E-commerce platform to buy jwelleries online.",
-      projectLongDescription: "",
-      techStack: [],
-      githubRepoFrontend: "",
-      githubRepoBackend: "",
+      projectLongDescription:
+        "Gold app built with MERN Stack , an E-commerce web app where user can buy gold jwelleries online . user will get option to add jwelleries to wishlist , add to cart , as well as can place order. please open this project in laptop!",
+      techStack: ["reactjs", "nodejs", "expressjs", "mongodb"],
+      githubRepoFrontend: "https://github.com/Rohit-Bera/Frontend-Rohit-Gold",
+      githubRepoBackend: "https://github.com/Rohit-Bera/Backend-Rohit-Gold",
       projectLink: "",
     },
     {
@@ -106,11 +114,12 @@ const Work = () => {
       projectTitle: "Medshub24/7",
       projectDescription:
         "E-commerce platform to buy medicines and health products.",
-      projectLongDescription: "",
-      techStack: [],
-      githubRepoFrontend: "",
-      githubRepoBackend: "",
-      projectLink: "",
+      projectLongDescription:
+        "Pharmacy app built with MERN Stack , an E-commerce web app where user can buy medicinesa and helath product online . user will get option to add medicines to wishlist , add to cart , as well as can place order. User can also upload prescription to order medicines. please open this project in laptop!",
+      techStack: ["reactjs", "nodejs", "expressjs", "mongodb"],
+      githubRepoFrontend: "https://github.com/Rohit-Bera/medshub-frontend",
+      githubRepoBackend: "https://github.com/Rohit-Bera/medshub-server",
+      projectLink: "https://medsub24by7.netlify.app/",
     },
   ];
 

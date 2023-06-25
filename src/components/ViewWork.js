@@ -70,7 +70,7 @@ const ViewWork = () => {
               {location.state.item.projectLongDescription}
             </div>
             <div className="project-links">
-              <a href={location.state.item.githubRepoFrontend}>
+              <a href={location.state.item.githubRepoBackend}>
                 <button>
                   <div className="link">
                     <RectangleGroupIcon className="icon" />
@@ -78,7 +78,7 @@ const ViewWork = () => {
                   <div className="icon-text">backend repo</div>
                 </button>
               </a>
-              <a href={location.state.item.githubRepoBackend}>
+              <a href={location.state.item.githubRepoFrontend}>
                 <button>
                   <div className="link">
                     <RocketLaunchIcon className="icon" />
