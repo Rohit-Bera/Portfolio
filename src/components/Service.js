@@ -2,8 +2,37 @@ import React from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "../styles/Service.css";
+import {
+  DevicePhoneMobileIcon,
+  ComputerDesktopIcon,
+  PuzzlePieceIcon,
+} from "@heroicons/react/24/solid";
 
 const Service = () => {
+  const myService = [
+    {
+      icon: <PuzzlePieceIcon height={30} width={30} />,
+      serviceName: "ui ux",
+      description:
+        "I specialize in providing top-notch UI/UX📱services to solve your digital challenges. With a deep understanding of user behavior🎐 and design principles, I create interfaces💻that ensure seamless navigation and enhance user satisfaction😋.",
+      includes: ["webapp design", "webapp prototype"],
+    },
+    {
+      icon: <ComputerDesktopIcon height={30} width={30} />,
+      serviceName: "web dev.",
+      description:
+        "I create custom websites that are not only visually appealing🍀 but also , ensuring a seamless user experience🌔. Whether you need a responsive design📱 , e-commerce functionality🛒, or robust backend development☁️, I have the knowledge and experience to solve your problems and deliver a webapp☄️ that drives your business growth.",
+      includes: ["Frontend", "Backend", "Webapp testing"],
+    },
+    {
+      icon: <DevicePhoneMobileIcon height={30} width={30} />,
+      serviceName: "app dev.",
+      description:
+        "I create apps that seamlessly run on both iOS and Android platforms📱. By utilizing frameworks like React Native , Flutter ; I ensure cost-effectiveness🪀 and faster time to market without compromising on app performance or user experience 🌝.",
+      includes: ["Frontend", "Backend", "app testing"],
+    },
+  ];
+
   return (
     <>
       <Nav />
@@ -13,16 +42,31 @@ const Service = () => {
             <div className="title">
               <span>I also provide freelancing services!</span>
               <label>
-                If you would want to work together feel free to send me a
-                message for any design or developement related services
+                Let's collaborate🤝 and transform your ideas ✍️ into engaging
+                and user-friendly designs⛩️.
               </label>
             </div>
           </section>
         </div>
         <div className="service-body">
-          <div className="service-card"></div>
-          <div className="service-card"></div>
-          <div className="service-card"></div>
+          {myService.map((item) => {
+            return (
+              <div className="service-card">
+                <div className="service-header">
+                  <div className="service-icon">{item.icon}</div>
+                  <div className="service-name">{item.serviceName}</div>
+                </div>
+                <div className="service-content">
+                  <label className="label-25">{item.description}</label>
+                  <label className="label-15">
+                    {item.includes.map((items) => {
+                      return <span>{items}</span>;
+                    })}
+                  </label>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
       <Footer />

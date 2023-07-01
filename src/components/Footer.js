@@ -4,6 +4,7 @@ import {
   EnvelopeIcon,
   PhoneArrowDownLeftIcon,
   PaperAirplaneIcon,
+  RocketLaunchIcon,
 } from "@heroicons/react/24/outline";
 
 const Footer = () => {
@@ -129,7 +130,7 @@ const Footer = () => {
                   </section>
                   <button>
                     <span>send message</span>
-                    <PaperAirplaneIcon height={25} width={25} />
+                    <RocketLaunchIcon height={25} width={25} />
                   </button>
                 </form>
               </div>

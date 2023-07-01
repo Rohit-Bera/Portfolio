@@ -7,9 +7,10 @@
 }
 
 .footer .footer-background{
-    background: url("../resources/background.jpg") no-repeat center;
+    /* background: url("../resources/background.jpg") no-repeat center;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
+    background-color: #F1F6F9;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -20,12 +21,12 @@
 }
 
 .footer .footer-background .footer-container{
-    background: white;
+    /* background: white;
     background: linear-gradient(
         to right bottom,
         rgba(255, 255, 255, 0.4),
         rgba(255, 255, 255, 0.2)
-    );
+    ); */
     backdrop-filter: blur(1rem);
     
     display: flex;
@@ -40,7 +41,7 @@
     /* background-color: #F1F6F9; */
     width: 90vw;
     margin-left: 5rem;
-    border-bottom: 2px solid #F1F6F9;
+    border-bottom: 2px solid black;
 
 }
 
@@ -49,7 +50,7 @@
     text-transform: uppercase;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 800;
-    color: #8BF5FA;
+    color: black;
     opacity: 0.8;
 }
 
@@ -79,6 +80,7 @@
     justify-content: flex-start;
     align-items: center;
     border-radius: 3px;
+    box-shadow: 0px 0px 20px #888888;
 }
 
 .footer-section-2 .footer-head section button{
@@ -159,6 +161,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0px 0px 20px #888888;
   }
 
   .footer-section-2 .footer-body .footer-part-1 input:focus,
@@ -185,6 +188,7 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0px 0px 20px #888888;
   }
 
   .footer-section-2 .footer-body .footer-part-3 textarea{
@@ -203,13 +207,15 @@
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-shadow: 0px 0px 20px #888888;
   }
 
   .footer-section-2 .footer-body button{
     text-transform: uppercase;
     height: 10vh;
     width: 30.5vw;
-    background-color: #F1F6F9;
+    background-color: #8BF5FA;
+    box-shadow: 0px 0px 20px #888888;
     color: black;
     font-weight: 500;
     display: flex;
@@ -224,14 +230,14 @@
   }
 
   .footer-section-2 .footer-body button:hover{
-    color: #27374D;
-    background-color: #8BF5FA;
-    transition: 0.5s all;
+    color: #8BF5FA;
+    background-color: black;
+    transition: 0.3s all ease-in-out;
   }
 
   .footer-section-2 .footer-body button:hover span{
     margin-right: 2rem;
-    transition: 0.5s all;
+    transition: 0.3s all ease-in-out;
   }
 
   .footer .footer-links{
