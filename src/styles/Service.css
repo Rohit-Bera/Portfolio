@@ -1,6 +1,6 @@
 .service-container{
     /* margin-bottom: 3vh; */
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .service-container .service-title{
@@ -54,7 +54,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #134E5E;
-    border-radius: 50px 50px 0px 0px;
+    /* border-radius: 50px 50px 0px 0px; */
 }
 
 .service-container .service-body .service-card{
@@ -93,6 +93,7 @@
 
 .service-container .service-body .service-card .service-header .service-name{
     background-color: rgb(30, 30, 30);
+    /* background-color: teal; */
     height: 8rem;
     width: 8rem;
     display: flex;
@@ -248,8 +249,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 8rem;
         width: 8rem;
         display: flex;
@@ -409,8 +410,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 8rem;
         width: 8rem;
         display: flex;
@@ -570,8 +571,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 6.5rem;
         width: 6.5rem;
         display: flex;
@@ -731,8 +732,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 6rem;
         width: 6rem;
         display: flex;
@@ -895,8 +896,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 5rem;
         width: 5rem;
         display: flex;
@@ -1016,7 +1017,7 @@
     }
     
     .service-container .service-body{
-        height: 130vh;
+        height: 135vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -1027,7 +1028,7 @@
     
     .service-container .service-body .service-card{
         border: 2px solid #8BF5FA;
-        height: 20rem;
+        height: 22rem;
         width: 93vw;
         border-radius: 20px;
         display: flex;
@@ -1042,11 +1043,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 10.5rem;
+        width: 11rem;
         height: 6rem;
         border-radius: 70px;
         padding: 0.5vw;
-        margin: 1vw;
+        margin: 3vw;
     }
     
     .service-container .service-body .service-card .service-header .service-icon{
@@ -1058,11 +1059,12 @@
         align-items: center;
         border-radius: 100%;
         color: white;
+        margin: 1vw;
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 5rem;
         width: 5rem;
         display: flex;
@@ -1073,6 +1075,7 @@
         text-transform: uppercase;
         color: white;
         font-size: 12px;
+        margin: 1vw;
     }
     
     .service-container .service-body .service-card .service-content{
@@ -1193,7 +1196,7 @@
     
     .service-container .service-body .service-card{
         border: 2px solid #8BF5FA;
-        height: 20rem;
+        height: 20.5rem;
         width: 93vw;
         border-radius: 20px;
         display: flex;
@@ -1208,7 +1211,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 10.5rem;
+        width: 11rem;
         height: 6rem;
         border-radius: 70px;
         padding: 1vw;
@@ -1224,11 +1227,12 @@
         align-items: center;
         border-radius: 100%;
         color: white;
+        margin: 0.5vw;
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 5rem;
         width: 5rem;
         display: flex;
@@ -1239,6 +1243,8 @@
         text-transform: uppercase;
         color: white;
         font-size: 12px;
+        margin: 0.5vw;
+        
     }
     
     .service-container .service-body .service-card .service-content{
@@ -1359,11 +1365,11 @@
     
     .service-container .service-body .service-card{
         border: 2px solid #8BF5FA;
-        height: 23rem;
+        height: 23.5rem;
         width: 93vw;
         border-radius: 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         flex-direction: column;
         border-radius: 100px;
@@ -1393,8 +1399,8 @@
     }
     
     .service-container .service-body .service-card .service-header .service-name{
-        /* background-color: rgb(30, 30, 30); */
-        background-color: teal;
+        background-color: rgb(30, 30, 30);
+        /* background-color: teal; */
         height: 5rem;
         width: 5rem;
         display: flex;
@@ -1429,7 +1435,7 @@
         /* background-color: yellow; */
         text-align: center;
         display: flex;
-        /* margin-top: 3vh; */
+        margin-top: 1vh;
         justify-content: space-around;
         align-items: center;
         font-weight: 500;

@@ -112,7 +112,7 @@ const Footer = () => {
                       <button>
                         <EnvelopeIcon height={25} width={25} />
                       </button>
-                      <span>rohitbusinessdummy@gmail.com</span>
+                      <span>rohit.glsica19@gmail.com</span>
                     </section>
                   </a>
                 </div>

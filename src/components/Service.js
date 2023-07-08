@@ -14,21 +14,21 @@ const Service = () => {
       icon: <PuzzlePieceIcon height={30} width={30} />,
       serviceName: "ui ux",
       description:
-        "I specialize in providing top-notch UI/UX📱services to solve your digital challenges. With a deep understanding of user behavior🎐 and design principles, I create interfaces💻that ensure seamless navigation and enhance user satisfaction😋.",
+        "top-notch UI/UX📱services to solve your digital challenges. Interfaces💻that ensure seamless navigation and enhance user satisfaction😋.",
       includes: ["webapp design", "webapp prototype"],
     },
     {
       icon: <ComputerDesktopIcon height={30} width={30} />,
       serviceName: "web dev.",
       description:
-        "I create custom websites that are not only visually appealing🍀 but also , ensuring a seamless user experience🌔. Whether you need a responsive design📱 , e-commerce functionality🛒, or robust backend development☁️, I have the knowledge and experience to solve your problems and deliver a webapp☄️ that drives your business growth.",
+        "websites that are not only visually appealing🍀 but also , ensuring a seamless user experience🌔. Whether you need a responsive design📱 , e-commerce functionality🛒, or robust backend development☁️ everything is availble!",
       includes: ["Frontend", "Backend", "Webapp testing"],
     },
     {
       icon: <DevicePhoneMobileIcon height={30} width={30} />,
       serviceName: "app dev.",
       description:
-        "I create apps that seamlessly run on both iOS and Android platforms📱. By utilizing frameworks like React Native , Flutter ; I ensure cost-effectiveness🪀 and faster time to market without compromising on app performance or user experience 🌝.",
+        "Apps that seamlessly run on both iOS and Android platforms📱. Proper utilization of frameworks like React Native , Flutter to create efficient and faster applications.",
       includes: ["Frontend", "Backend", "app testing"],
     },
   ];
