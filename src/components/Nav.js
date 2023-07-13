@@ -68,12 +68,12 @@ const Nav = () => {
             </Link>
           </div>
           <div className="nav-app">
-            <a href="">
+            <a href="https://github.com/Rohit-Bera" target="_blank">
               <button className="nav-app-link">
                 <i class="fab fa-github" />
               </button>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/rohit-bera22" target="_blank">
               <button className="nav-app-link">
                 <i class="fab fa-linkedin-in" />
               </button>

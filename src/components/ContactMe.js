@@ -6,9 +6,69 @@ import {
   EnvelopeIcon,
   RocketLaunchIcon,
 } from "@heroicons/react/24/solid";
+import axios from "axios";
+import rocket from "../resources/rocketLoader.gif";
 
 const ContactMe = () => {
   const [mouseOver, setMouseOver] = useState(false);
+  const [loader, setLoader] = useState(false);
+
+  const [mail, setMail] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const submitForm = (e) => {
+    e.preventDefault();
+  };
+
+  const setMailInputs = (e) => {
+    setMail({ ...mail, [e.target.name]: e.target.value });
+  };
+
+  const sentMail = async () => {
+    console.log("mail: ", mail);
+
+    if (
+      mail.email === "" ||
+      mail.name === "" ||
+      mail.message === "" ||
+      mail.subject === ""
+    ) {
+      return null;
+    }
+
+    try {
+      setLoader(true);
+      const mailSent = await axios.post(
+        "https://mail-server-ywy9.onrender.com/sentMail",
+        mail
+      );
+      console.log("mailSent: ", mailSent);
+
+      if (mailSent.data.status === 200) {
+        setLoader(false);
+        setMail({
+          name: "",
+          email: "",
+          message: "",
+          subject: "",
+        });
+      } else {
+        setLoader(false);
+        setMail({
+          name: "",
+          email: "",
+          message: "",
+          subject: "",
+        });
+      }
+    } catch (error) {
+      console.log("error: ", error);
+    }
+  };
 
   return (
     <>
@@ -21,7 +81,7 @@ const ContactMe = () => {
         <div className="contacts">
           <section className="contacts-item">
             <a
-              href="/"
+              href="mailto:rohit.glsica19@gmail.com"
               onMouseOver={() => setMouseOver(true)}
               onMouseOut={() => setMouseOver(false)}
             >
@@ -36,7 +96,7 @@ const ContactMe = () => {
             </a>
           </section>
           <section className="contacts-item">
-            <a href="/">
+            <a href="https://wa.me/919664605041">
               <div className="contact-icon">
                 <i class="fab fa-brands fa-whatsapp" />
               </div>
@@ -46,16 +106,51 @@ const ContactMe = () => {
         </div>
 
         <div className="contact-message">
-          <form>
+          <form onSubmit={(e) => submitForm(e)}>
             <section>
-              <input type="text" placeholder="your name" />
-              <input type="text" placeholder="your email id" />
-              <input type="text" placeholder="subject" />
-              <textarea placeholder="your message" />
+              <input
+                type="text"
+                placeholder="your name"
+                name="name"
+                value={mail.name}
+                onChange={setMailInputs}
+                required
+              />
+              <input
+                type="text"
+                placeholder="your email id"
+                name="email"
+                value={mail.email}
+                onChange={setMailInputs}
+                required
+              />
+              <input
+                type="text"
+                placeholder="subject"
+                name="subject"
+                value={mail.subject}
+                onChange={setMailInputs}
+                required
+              />
+              <textarea
+                placeholder="your message"
+                name="message"
+                value={mail.message}
+                onChange={setMailInputs}
+                required
+              />
             </section>
-            <button>
-              <label>send message</label>
-              <RocketLaunchIcon className="icon" />
+            <button onClick={() => sentMail()}>
+              {loader ? (
+                <>
+                  <img src={rocket} />
+                </>
+              ) : (
+                <>
+                  <label>send message</label>
+                  <RocketLaunchIcon className="icon" />
+                </>
+              )}
             </button>
           </form>
         </div>
@@ -69,7 +164,7 @@ const ContactMe = () => {
             </section>
           </a>
 
-          <a href="">
+          <a href="https://www.linkedin.com/in/rohit-bera22" target="_blank">
             <section>
               <span>
                 <i class="fab fa-brands fa-linkedin-in" />
@@ -77,7 +172,7 @@ const ContactMe = () => {
             </section>
           </a>
 
-          <a href="">
+          <a href="https://github.com/Rohit-Bera" target="_blank">
             <section>
               <span>
                 <i class="fab fa-brands fa-github-alt" />

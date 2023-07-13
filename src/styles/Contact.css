@@ -166,6 +166,13 @@
     align-items: center;
 }
 
+.contact-parent .contact-message form button img{
+    height: 8vh;
+    width: 80px;
+    background-blend-mode: multiply;
+    /* background-color: black; */
+}
+
 .contact-parent .contact-message form button:hover{
     background-color: black;
     border: 2px solid #8BF5FA;
@@ -465,241 +472,6 @@
     
 }
 
-@media only screen and (max-width:426px){
-    .contact-parent{
-        /* background-color: aqua; */
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .contact-parent .contact-title{
-        background-color: rgb(30, 30, 30);
-        width: 97%;
-        height: 45vh;
-        border-radius: 30px 30px 120px 120px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .contact-parent .contact-title label{
-        color: #8BF5FA;
-        font-size: 4vw;
-        font-weight: 500;
-    }
-    
-    .contact-parent .contacts{
-        /* background-color: tomato; */
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        width: 95%;
-        height: 40vh;
-    }
-    
-    .contact-parent .contacts .contacts-item{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .contact-parent .contacts .contacts-item a{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        background-color: #27374D;
-        width: 75vw;
-        height: 17vh;
-        border-radius: 20px;
-    }
-    
-    .contact-parent .contacts .contacts-item a span{
-        /* background-color: aqua; */
-        width: 48vw;
-        height: 13vw;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 3.3vw;
-        color: #F1F6F9;
-    }
-    
-    .contact-parent .contacts .contacts-item a .contact-icon{
-        background-color: #F1F6F9;
-        height: 15vh;
-        width: 20vw;
-        border-radius: 15px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .contact-parent .contacts .contacts-item a .contact-icon .icon{
-        height: 5vh;
-        width: 5vw;
-        color: black;
-    }
-    
-    .contact-parent .contacts .contacts-item a .contact-icon i{
-        font-size: 5vw;
-        color: black;
-    }
-    
-    .contact-parent .contacts .contacts-item a:hover{
-        background-color: #8BF5FA;
-        transition: 0.4s all ease-in-out;
-    }
-    
-    .contact-parent .contacts .contacts-item a:hover span{
-        color: black;
-    }
-    
-    .contact-parent .contacts .contacts-item a:hover .contact-icon{
-        background-color: black;
-    }
-    
-    .contact-parent .contacts .contacts-item a:hover .contact-icon .icon{
-        color: #8BF5FA;
-    }
-    .contact-parent .contacts .contacts-item a:hover .contact-icon i{
-        color: #8BF5FA;
-    }
-    
-    .contact-parent .contact-message{
-        background-color: rgb(30, 30, 30);
-        height: 95vh;
-        width: 97%;
-        border-radius: 25px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .contact-parent .contact-message form{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: column;
-        height: 90vh;
-    }
-    
-    .contact-parent .contact-message form section{
-        width: 90vw;
-        /* background-color: cadetblue; */
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        height: 90vh;
-    }
-    
-    .contact-parent .contact-message form section input{
-        background-color: #F1F6F9;
-        outline: none;
-        border: none;
-        height: 7vh;
-        width: 77vw;
-        padding: 2vw;
-        color: black;
-        font-weight: 500;
-        font-size: 14px;
-        border-radius: 20px;
-    }
-    
-    .contact-parent .contact-message form section textarea{
-        background-color: #F1F6F9;
-        outline: none;
-        border: none;
-        height: 37vh;
-        width: 77vw;
-        padding: 2vw;
-        color: black;
-        font-weight: 500;
-        font-size: 16px;
-        border-radius: 20px;
-    }
-    
-    .contact-parent .contact-message form button{
-        width: 77vw;
-        height: 10vh;
-        border-radius: 20px;
-        background-color: #8BF5FA;
-        color: black;
-        font-size: 20px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .contact-parent .contact-message form button:hover{
-        background-color: black;
-        border: 2px solid #8BF5FA;
-        color: #8BF5FA;
-        transition: 0.2s all ease-in-out;
-    }
-    
-    .contact-parent .contact-message form button:hover .icon{
-        color: #8BF5FA;
-    }
-    
-    .contact-parent .contact-message form button .icon{
-        height: 5vh;
-        width: 5vw;
-    }
-    
-    .contact-parent .contact-socials{
-        /* background-color: tomato; */
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 100%;
-        height: 35vh;
-    }
-    
-    .contact-parent .contact-socials section{
-        background-color: #27374D;
-        height: 21vh;
-        width: 28vw;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 25px;
-    
-    }
-    
-    .contact-parent .contact-socials section span{
-        background-color: #F1F6F9;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 17vh;
-        width: 22vw;
-        border-radius: 15px;
-    }
-    
-    .contact-parent .contact-socials section span i{
-        font-size: 5vw;
-        color: black;
-    }
-    
-    .contact-parent .contact-socials section:hover{
-        background-color: #8BF5FA;
-        transition: 0.3s all ease-in-out;
-    }
-    
-    .contact-parent .contact-socials section:hover span{
-        background-color: black;
-    }
-    
-    .contact-parent .contact-socials section:hover span i{
-        color: #8BF5FA;
-    }
-    
-}
 
 @media only screen and (max-width:376px){
     .contact-parent{
@@ -936,8 +708,8 @@
     }
     
 }
-
-@media only screen and (min-width: 390px) and (max-width: 400px){
+/* pixel - 5 */
+@media only screen and (min-width: 390px) and (max-width: 420px){
     .contact-parent{
         /* background-color: aqua; */
         display: flex;
@@ -969,7 +741,7 @@
         align-items: center;
         flex-direction: column;
         width: 95%;
-        height: 40vh;
+        height: 35vh;
     }
     
     .contact-parent .contacts .contacts-item{
@@ -984,7 +756,7 @@
         align-items: center;
         background-color: #27374D;
         width: 85vw;
-        height: 17vh;
+        height: 13vh;
         border-radius: 20px;
     }
     
@@ -1001,7 +773,7 @@
     
     .contact-parent .contacts .contacts-item a .contact-icon{
         background-color: #F1F6F9;
-        height: 15vh;
+        height: 10vh;
         width: 24vw;
         border-radius: 15px;
         display: flex;
@@ -1129,12 +901,12 @@
         justify-content: space-around;
         align-items: center;
         width: 100%;
-        height: 35vh;
+        height: 30vh;
     }
     
     .contact-parent .contact-socials section{
         background-color: #27374D;
-        height: 21vh;
+        height: 15vh;
         width: 28vw;
         display: flex;
         justify-content: space-around;
@@ -1148,13 +920,13 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        height: 17vh;
+        height: 12vh;
         width: 22vw;
         border-radius: 15px;
     }
     
     .contact-parent .contact-socials section span i{
-        font-size: 5vw;
+        font-size: 7vw;
         color: black;
     }
     
@@ -1173,7 +945,245 @@
     
 }
 
-@media only screen and (max-width:500px){
+@media only screen and (min-width: 360px) and (max-width: 390px){
+    .contact-parent{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .contact-parent .contact-title{
+        background-color: rgb(30, 30, 30);
+        width: 96%;
+        height: 40vh;
+        border-radius: 30px 30px 120px 120px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-parent .contact-title label{
+        color: #8BF5FA;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    
+    .contact-parent .contacts{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        height: 35vh;
+    }
+    
+    .contact-parent .contacts .contacts-item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-parent .contacts .contacts-item a{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #27374D;
+        width: 85vw;
+        height: 13vh;
+        border-radius: 20px;
+    }
+    
+    .contact-parent .contacts .contacts-item a span{
+        /* background-color: aqua; */
+        width: 50vw;
+        height: 13vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3.3vw;
+        color: #F1F6F9;
+    }
+    
+    .contact-parent .contacts .contacts-item a .contact-icon{
+        background-color: #F1F6F9;
+        height: 10vh;
+        width: 24vw;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-parent .contacts .contacts-item a .contact-icon .icon{
+        height: 5vh;
+        width: 5vw;
+        color: black;
+    }
+    
+    .contact-parent .contacts .contacts-item a .contact-icon i{
+        font-size: 5vw;
+        color: black;
+    }
+    
+    .contact-parent .contacts .contacts-item a:hover{
+        background-color: #8BF5FA;
+        transition: 0.4s all ease-in-out;
+    }
+    
+    .contact-parent .contacts .contacts-item a:hover span{
+        color: black;
+    }
+    
+    .contact-parent .contacts .contacts-item a:hover .contact-icon{
+        background-color: black;
+    }
+    
+    .contact-parent .contacts .contacts-item a:hover .contact-icon .icon{
+        color: #8BF5FA;
+    }
+    .contact-parent .contacts .contacts-item a:hover .contact-icon i{
+        color: #8BF5FA;
+    }
+    
+    .contact-parent .contact-message{
+        background-color: rgb(30, 30, 30);
+        height: 95vh;
+        width: 96%;
+        border-radius: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-parent .contact-message form{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .contact-parent .contact-message form section{
+        width: 90vw;
+        /* background-color: cadetblue; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 90vh;
+    }
+    
+    .contact-parent .contact-message form section input{
+        background-color: #F1F6F9;
+        outline: none;
+        border: none;
+        height: 7vh;
+        width: 77vw;
+        padding: 2vw;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+    
+    .contact-parent .contact-message form section textarea{
+        background-color: #F1F6F9;
+        outline: none;
+        border: none;
+        height: 37vh;
+        width: 77vw;
+        padding: 2vw;
+        color: black;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+    
+    .contact-parent .contact-message form button{
+        width: 77vw;
+        height: 10vh;
+        border-radius: 20px;
+        background-color: #8BF5FA;
+        color: black;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .contact-parent .contact-message form button:hover{
+        background-color: black;
+        border: 2px solid #8BF5FA;
+        color: #8BF5FA;
+        transition: 0.2s all ease-in-out;
+    }
+    
+    .contact-parent .contact-message form button:hover .icon{
+        color: #8BF5FA;
+    }
+    
+    .contact-parent .contact-message form button .icon{
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    .contact-parent .contact-socials{
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .contact-parent .contact-socials section{
+        background-color: #27374D;
+        height: 15vh;
+        width: 28vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 25px;
+    
+    }
+    
+    .contact-parent .contact-socials section span{
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 12vh;
+        width: 22vw;
+        border-radius: 15px;
+    }
+    
+    .contact-parent .contact-socials section span i{
+        font-size: 7vw;
+        color: black;
+    }
+    
+    .contact-parent .contact-socials section:hover{
+        background-color: #8BF5FA;
+        transition: 0.3s all ease-in-out;
+    }
+    
+    .contact-parent .contact-socials section:hover span{
+        background-color: black;
+    }
+    
+    .contact-parent .contact-socials section:hover span i{
+        color: #8BF5FA;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:500px) and (min-width: 400px){
     .contact-parent{
         /* background-color: aqua; */
         display: flex;
@@ -1186,7 +1196,7 @@
         background-color: rgb(30, 30, 30);
         /* background-color: pink; */
         width: 97%;
-        height: 40vh;
+        height: 38vh;
         border-radius: 30px 30px 120px 120px;
         display: flex;
         justify-content: space-around;
@@ -1220,8 +1230,8 @@
         justify-content: space-around;
         align-items: center;
         background-color: #27374D;
-        width: 75vw;
-        height: 17vh;
+        width: 85vw;
+        height: 14vh;
         border-radius: 20px;
     }
     
@@ -1238,8 +1248,8 @@
     
     .contact-parent .contacts .contacts-item a .contact-icon{
         background-color: #F1F6F9;
-        height: 15vh;
-        width: 20vw;
+        height: 11vh;
+        width: 23vw;
         border-radius: 15px;
         display: flex;
         justify-content: space-around;

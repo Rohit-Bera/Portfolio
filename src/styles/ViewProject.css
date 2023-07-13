@@ -948,7 +948,7 @@
     
 }
 
-@media only screen and (min-width: 390px) and (max-width: 410px) {
+@media only screen and (min-width: 390px) and (max-width: 420px) {
     .view-project-container{
         background-color: #F1F6F9;
         /* max-height: 200vh; */

@@ -6,6 +6,8 @@ import {
   PaperAirplaneIcon,
   RocketLaunchIcon,
 } from "@heroicons/react/24/outline";
+import axios from "axios";
+import rocket from "../resources/rocketLoader.gif";
 
 const Footer = () => {
   const [windowSize, setWindowSize] = useState([
@@ -24,6 +26,64 @@ const Footer = () => {
       window.removeEventListener("resize", handleWindowResize);
     };
   }, []);
+  const [loader, setLoader] = useState(false);
+
+  const [mail, setMail] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const submitForm = (e) => {
+    e.preventDefault();
+  };
+
+  const setMailInputs = (e) => {
+    setMail({ ...mail, [e.target.name]: e.target.value });
+  };
+
+  const sentMail = async () => {
+    console.log("mail: ", mail);
+
+    if (
+      mail.email === "" ||
+      mail.name === "" ||
+      mail.message === "" ||
+      mail.subject === ""
+    ) {
+      return null;
+    }
+
+    try {
+      setLoader(true);
+      const mailSent = await axios.post(
+        "https://mail-server-ywy9.onrender.com/sentMail",
+        mail
+      );
+      console.log("mailSent: ", mailSent);
+
+      if (mailSent.data.status === 200) {
+        setLoader(false);
+        setMail({
+          name: "",
+          email: "",
+          message: "",
+          subject: "",
+        });
+      } else {
+        setLoader(false);
+        setMail({
+          name: "",
+          email: "",
+          message: "",
+          subject: "",
+        });
+      }
+    } catch (error) {
+      console.log("error: ", error);
+    }
+  };
 
   console.log("windowSize[0]: ", windowSize[0]);
 
@@ -118,19 +178,57 @@ const Footer = () => {
                 </div>
               )}
               <div className="footer-body">
-                <form>
+                <form onSubmit={(e) => submitForm(e)}>
                   <section className="footer-part-1">
-                    <input type="text" placeholder="your name" />
+                    <input
+                      type="text"
+                      placeholder="your name"
+                      name="name"
+                      value={mail.name}
+                      onChange={setMailInputs}
+                      required
+                    />
                   </section>
                   <section className="footer-part-2">
-                    <input type="text" placeholder="your email" />
+                    <input
+                      type="text"
+                      placeholder="your email id"
+                      name="email"
+                      value={mail.email}
+                      onChange={setMailInputs}
+                      required
+                    />
+                  </section>
+                  <section className="footer-part-2">
+                    <input
+                      type="text"
+                      placeholder="subject"
+                      name="subject"
+                      value={mail.subject}
+                      onChange={setMailInputs}
+                      required
+                    />
                   </section>
                   <section className="footer-part-3">
-                    <textarea placeholder="your message" />
+                    <textarea
+                      placeholder="your message"
+                      name="message"
+                      value={mail.message}
+                      onChange={setMailInputs}
+                      required
+                    />
                   </section>
-                  <button>
-                    <span>send message</span>
-                    <RocketLaunchIcon height={25} width={25} />
+                  <button onClick={() => sentMail()}>
+                    {loader ? (
+                      <>
+                        <img src={rocket} />
+                      </>
+                    ) : (
+                      <>
+                        <label>send message</label>
+                        <RocketLaunchIcon className="icon" />
+                      </>
+                    )}
                   </button>
                 </form>
               </div>
