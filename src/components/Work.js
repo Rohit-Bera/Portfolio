@@ -106,7 +106,7 @@ const Work = () => {
       techStack: ["reactjs", "nodejs", "expressjs", "mongodb"],
       githubRepoFrontend: "https://github.com/Rohit-Bera/Frontend-Rohit-Gold",
       githubRepoBackend: "https://github.com/Rohit-Bera/Backend-Rohit-Gold",
-      projectLink: "",
+      projectLink: "https://rohits-goldapp.vercel.app/",
     },
     {
       bgColor: "",
