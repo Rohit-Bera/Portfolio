@@ -1478,7 +1478,7 @@ text-transform: uppercase;
 
     margin-top: 2rem;
     width: 90vw;
-    height: 90vh;
+    height: 100vh;
     /* background-color: blueviolet; */
 }
 
@@ -1514,7 +1514,7 @@ text-transform: uppercase;
     /* top: -2rem; */
     /* background-color: greenyellow; */
     width: 90vw;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1800,11 +1800,16 @@ background-color: #F7E1AE;
     }
 
     .about-home .about-home-container{
-        height: 97vh;
+        height: 100vh;
     }
 
     .about-home .about-home-container .about-home-container-1 span{
-        top: 6.1rem;
+        top: 8rem;
+        left: 12rem;
+    }
+
+    .about-home .about-home-container .about-home-container-2{
+        height: 90vh;
     }
 
     .about-home .about-home-container .about-home-container-2 .about-education span{
@@ -1839,6 +1844,13 @@ background-color: #F7E1AE;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
+    }
+
+    .about-home .about-home-container .about-home-container-1 label{}
+
+    .about-home .about-home-container .about-home-container-1 span{
+        top: 4.9rem;
+        left: 8rem;
     }
     
     .about-home .about-home-container{
@@ -1984,104 +1996,6 @@ background-color: #F7E1AE;
     }
 }
 
-/* mobile 376 */
-@media only screen and (max-width: 376px){
-    .about-home .about-home-container{
-        margin-top: -7rem;
-        width: 90vw;
-        height: 135vh;
-        /* background-color: blueviolet; */
-    }
-
-    .about-home .about-home-container .about-home-container-1{
-        /* background-color: aqua; */
-        position: relative;
-        flex-direction: column;
-        width: 90vw;
-    }
-    
-    .about-home .about-home-container .about-home-container-1 label{
-        font-size: 15vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-1 span{
-        top: 3.7rem;
-        left: 6rem;
-        font-size: 2.5rem;
-    }
-
-    .about-home .about-home-container .about-home-container-2 div{
-        height: 24vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-me img{
-        width: 35vw;
-        height: 24vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-me .about-me-text label{
-        font-size: 4vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-me .about-me-text p{
-        font-size: 2vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-education span{
-        width: 57vw;
-        height: 24vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-education .about-me-text label{
-        font-size: 4vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-education .about-me-text p{
-        font-size: 2vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span{
-        width: 57vw;
-        height: 24vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills .about-me-text label{
-        font-size: 4vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-skills .about-me-text p{
-        font-size: 2vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span i{
-        width: 17.3vw;
-        height: 12vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 2rem;
-        font-weight: 400;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience span{
-        width: 57vw;
-        height: 24vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text label{
-        font-size: 4vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text p{
-        font-size: 2vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text button{
-        font-size: 2vh;
-        font-weight: 500;
-    }
-}
-
 /* mobile 321 */
 @media only screen and (max-width: 321px){
     .about-home .about-home-container{
@@ -2180,103 +2094,6 @@ background-color: #F7E1AE;
     }
 }
 
-@media only screen and (min-width: 390px) and (max-width: 400px){
-    .about-home .about-home-container{
-        margin-top: -7rem;
-        width: 90vw;
-        height: 110vh;
-        /* background-color: blueviolet; */
-    }
-
-    .about-home .about-home-container .about-home-container-1{
-        /* background-color: aqua; */
-        position: relative;
-        flex-direction: column;
-        width: 90vw;
-    }
-    
-    .about-home .about-home-container .about-home-container-1 label{
-        font-size: 12vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-1 span{
-        top: 4.5rem;
-        left: 7rem;
-        font-size: 4vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 div{
-        height: 19vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-me img{
-        width: 36vw;
-        height: 19vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-me .about-me-text label{
-        font-size: 3vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-me .about-me-text p{
-        font-size: 1.5vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-education span{
-        width: 57vw;
-        height: 19vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-education .about-me-text label{
-        font-size: 3vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-education .about-me-text p{
-        font-size: 1.5vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span{
-        width: 57vw;
-        height: 19vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills .about-me-text label{
-        font-size: 3vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-skills .about-me-text p{
-        font-size: 1.5vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span i{
-        width: 17.3vw;
-        height: 9.5vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 1.5rem;
-        font-weight: 400;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience span{
-        width: 57vw;
-        height: 19vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text label{
-        font-size: 3vh;
-    }
-    
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text p{
-        font-size: 1.5vh;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-experience .about-me-text button{
-        font-size: 1.5vh;
-        font-weight: 500;
-    }
-}
-
 @media only screen and (min-width: 360px) and (max-width: 390px){
     .about-home .about-home-container{
         margin-top: -7rem;
@@ -2298,8 +2115,8 @@ background-color: #F7E1AE;
     }
     
     .about-home .about-home-container .about-home-container-1 span{
-        top: 3.4rem;
-        left: 6.3rem;
+        top: 3rem;
+        left: 6rem;
         font-size: 5vh;
     }
 
@@ -2396,7 +2213,7 @@ background-color: #F7E1AE;
     }
     
     .about-home .about-home-container .about-home-container-1 span{
-        top: 4.5rem;
+        top: 4.2rem;
         left: 7rem;
         font-size: 4.5vh;
     }
