@@ -127,12 +127,12 @@ const Nav = () => {
             <Link to="/contactme">Contact</Link>
           </div>
           <div className="nav-app">
-            <a href="">
+            <a href="https://github.com/Rohit-Bera" target="_blank">
               <div className="nav-app-link">
                 <i class="fab fa-github" />
               </div>
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/rohit-bera22" target="_blank">
               <div className="nav-app-link">
                 <i class="fab fa-linkedin-in" />
               </div>

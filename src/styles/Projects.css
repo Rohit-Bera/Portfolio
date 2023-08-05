@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 120vh;
+    /* min-height: 120vh; */
 }
 
 .project-container .project-wrapper{
@@ -15,7 +15,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 120vh;
+    /* min-height: 120vh; */
 }
 
 .project-container .project-wrapper .project-card{
@@ -68,7 +68,7 @@ align-items: center;
 .project-container .project-wrapper .project-card .project-desc label{
     font-size: 1.5vw;
     font-family: apercu, sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     color: #F1F6F9;
     margin-bottom: 0.5vw;
 }
@@ -76,8 +76,8 @@ align-items: center;
 .project-container .project-wrapper .project-card .project-desc span{
     font-size: 1vw;
     font-family: apercu, sans-serif;
-    font-weight: 400;
-    color: #F1F6F9;
+    font-weight: 200;
+    color: #8BF5FA;
 }
 
 .project-container .project-wrapper .project-card .project-desc section{
@@ -92,7 +92,7 @@ align-items: center;
 .project-container .project-wrapper .project-card .project-desc button{
     height: 3vw;
     width: 3vw;
-    border: 1px solid #8BF5FA;
+    border: 1px solid #F1F6F9;
 }
 
 .project-container .project-wrapper .project-card .project-desc button .icon{
@@ -112,6 +112,111 @@ align-items: center;
 }
 
 /* laptop 1440 */
+@media only screen and (max-width: 1441px){
+    .project-container{
+        margin-bottom: 3vw;
+        /* margin-top: 3vw; */
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 120vh;
+    }
+    
+    .project-container .project-wrapper{
+        width: 97vw;
+        /* background-color: tomato; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        min-height: 120vh;
+    }
+    
+    .project-container .project-wrapper .project-card{
+        background-color: #27374D;
+        width:29vw;
+        height: 60vh;
+        border-radius: 10px;
+        /* margin: 3vw; */
+        margin: 3vw 1.5vw;
+        box-shadow: 0px 0px 25px #888888;
+    }
+    
+    .project-container .project-wrapper .project-card .project-img{
+        /* background-color: yellow; */
+        border-radius: 14px 14px 0px 0px;
+        height: 67%;
+    }
+    
+    .project-container .project-wrapper .project-card .project-img img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .project-container .project-wrapper .project-card .project-logo{
+        background-color: #27374D;
+        height: 12.5vh;
+        width: 7vw;
+        margin-top: -4.5vw;
+        margin-left: 2vw;
+        border-radius: 8px;
+        border: 3px solid #8BF5FA;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc{
+        /* background-color: violet; */
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc label{
+        font-size: 1.8vw;
+        font-family: apercu, sans-serif;
+        font-weight: 400;
+        color: #F1F6F9;
+        margin-bottom: 0.5vw;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc span{
+        font-size: 1vw;
+        font-family: apercu, sans-serif;
+        font-weight: 400;
+        color: #8BF5FA;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc section{
+        /* background-color: aqua; */
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc button{
+        height: 4vw;
+        width: 4vw;
+        border: 1px solid #8BF5FA;
+    }
+    
+    .project-container .project-wrapper .project-card .project-desc button .icon{
+        height: 2vw;
+        width: 2vw;
+        color: #F1F6F9;
+    }
+}
+
 @media only screen and (max-width: 1025px){
     .project-container{
         margin-bottom: 3vw;
@@ -189,10 +294,10 @@ align-items: center;
     }
     
     .project-container .project-wrapper .project-card .project-desc span{
-        font-size: 1.3vw;
+        font-size: 1vw;
         font-family: apercu, sans-serif;
         font-weight: 400;
-        color: #F1F6F9;
+        color: #8BF5FA;
     }
     
     .project-container .project-wrapper .project-card .project-desc section{
@@ -213,7 +318,7 @@ align-items: center;
     .project-container .project-wrapper .project-card .project-desc button .icon{
         height: 2vw;
         width: 2vw;
-        color: #8BF5FA;
+        color: #F1F6F9;
     }
 }
 

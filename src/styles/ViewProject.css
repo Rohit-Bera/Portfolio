@@ -228,6 +228,243 @@
     margin-bottom: 2vw;
 }
 
+@media only screen and (max-width:1441px) {
+    .view-project-container{
+        background-color: #F1F6F9;
+        /* max-height: 200vh; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .view-project-container .project-wrapper{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .view-project-container .project-slider{
+        margin-top: 1vw;
+        /* background-color: yellow; */
+        width: 97vw;
+        height: 30vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .view-project-container .project-slider section{
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 97vw;
+        height: 30vh;
+    }
+    
+    .view-project-container .project-slider section .title{
+        background-color: #27374D;
+        height: 25vh;
+        width: 16vw;
+        text-transform: uppercase;
+        /* padding: 1vw; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 3vw;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: 500;
+        font-family: apercu, sans-serif;
+        color: #8BF5FA;
+        box-shadow: 0px 0px 30px #888888;
+    }
+    
+    .view-project-container .project-slider section .project-logo{
+        background-color: turquoise;
+        height: 25vh;
+        width: 16vw;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px #888888;
+    }
+    .view-project-container .project-slider section .project-logo img{
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .view-project-container .project-slider section .project-short-description{
+        background-color: #27374D;
+        color: #8BF5FA;
+        height: 25vh;
+        width: 25vw;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 1.5vw;
+        border-radius: 5px;
+        font-weight: 500;
+        box-shadow: 0px 0px 30px #888888;
+    }
+    .view-project-container .project-slider section .project-stack{
+        background-color: #8BF5FA;
+        height: 24.5vh;
+        width: 30.5vw;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        box-shadow: 0px 0px 30px #888888;
+        border: 2px solid black;
+    }
+    
+    .view-project-container .project-slider section .project-stack .tech{
+        color: #8BF5FA;
+        border: 2px solid white;
+        background-color: black;
+        margin: 0.5vw;
+        height: 3vw;
+        width: 8vw;
+        border-radius: 5px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1vw;
+        font-weight: 500;
+    }
+    
+    .view-project-container .project-img{
+        margin-top: 2.5vw;
+        height: 110vh;
+        width: 98vw;
+        border-radius: 10px;
+        /* background-color: blue; */
+    }
+    
+    .view-project-container .project-img section{
+        height: 110vh;
+        width: 98vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .view-project-container .project-img section .img-content{
+        height: 55vh;
+        width: 49vw;
+        /* background-color: turquoise; */
+    }
+    
+    .view-project-container .project-img section img{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .link-desc-wrapper{
+        margin-top: 2.5vw;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95vw;
+        margin-bottom: 2vw;
+    }
+    
+    .view-project-container .link-desc-wrapper .project-description{
+        background-color: #8BF5FA;
+        width: 55vw;
+        height: 30vw;
+        padding: 0.5vw 2vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.5vw;
+        border-radius: 35px;
+        box-shadow: 0px 0px 25px #888888;
+    }
+    
+    .view-project-container .link-desc-wrapper .project-links{
+        background-color: white;
+        width: 28vw;
+        height: 31vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid #134E5E;
+        box-shadow: 0px 0px 25px #888888;
+        border-radius: 35px;
+    }
+    
+    .view-project-container .project-links button{
+        background-color: #27374D;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 26vw;
+        height: 8vw;
+        border-radius: 3px;
+        box-shadow: 0px 0px 25px #888888;
+        border: 2px solid #8BF5FA;
+        padding-left: 0.8rem;
+    }
+    
+    .view-project-container .project-links .link{
+        background-color: #8BF5FA;
+        border-radius: 3px;
+        height: 11vh;
+        width: 6vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .view-project-container .project-links .link .icon{
+        height: 2.3vw;
+        width: 2.3vw;
+        color: black;
+    }
+    
+    .view-project-container .project-links .icon-text{
+        /* background-color: aqua; */
+        height: 10vh;
+        width: 17vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 1.3vw;
+        color: #8BF5FA;
+    }
+    
+    .view-project-container .project-links button:hover{
+        background-color: #8BF5FA;
+        border: 2px solid black;
+        transition: 0.2s ease-in-out all;
+    }
+    
+    .view-project-container .project-links button:hover > .link{
+        background-color: black;
+    }
+    
+    .view-project-container .project-links button:hover > .link .icon{
+        color: white;
+    }
+    
+    .view-project-container .project-links button:hover > .icon-text{
+        color: black;
+    }
+    
+    
+}
+
 @media only screen and (max-width:1025px) {
     .view-project-container{
         background-color: #F1F6F9;

@@ -1752,7 +1752,7 @@ background-color: #F7E1AE;
 }
 
 /* laptop 1440 */
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1441px){
     .about-home{
         margin-top: 16rem;
     }
@@ -1762,32 +1762,84 @@ background-color: #F7E1AE;
     }
     
     .about-home .about-home-container .about-home-container-1 span{
-        top: 11rem;
+        top: 12.2rem;
         left: 15rem;
         font-size: 10vh;
     }
 
+    .about-home .about-home-container{
+        /* background-color: turquoise; */
+        height: 120vh;
+    }
+
+    .about-home .about-home-container .about-home-container-1{
+        /* background-color: tomato; */
+        width: 100%;
+        height: 40vh;
+    }
+
+    .about-home .about-home-container .about-home-container-2{
+        /* background-color: violet; */
+        height: 75vh;
+    }
+
+    .about-home .about-home-container .about-home-container-2 div{
+        background-color: #27374D;
+        height: 30vh;
+        width: 43vw;
+        border-radius: 3px;
+    
+    }
+
+    .about-home .about-home-container .about-home-container-2 .about-me img{
+        height: 30vh;
+        width: 17vw;
+        border-radius: 3px;
+    }
+
     .about-home .about-home-container .about-home-container-2 .about-education span{
-        width: 18.5vw;
+        height: 30vh;
+        width: 19vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .about-home .about-home-container .about-home-container-2 .about-skills span{
-        width: 24.5vw;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span i{
-        width: 7.8vw;
-        height: 13.5vh;
+        height: 30vh;
+        width: 21.5vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #F1F6F9;
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        font-size: 2.3rem;
-        font-weight: 400;
+    }
+
+    .about-home .about-home-container .about-home-container-2 .about-skills span i{
+        width: 7.12vw;
+        height: 14.9vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 300;
+        /* background-color: yellow !important; */
     }
 
     .about-home .about-home-container .about-home-container-2 .about-experience span{
-        width: 18.5vw;
+        height: 30vh;
+        width: 19vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     
 
@@ -2513,7 +2565,7 @@ background-color: #F7E1AE;
     color: #27374D;
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1441px){
 
     .featured-project .featured-project-container .featured-project-container-2{
         width: 90vw;
@@ -2529,8 +2581,8 @@ background-color: #F7E1AE;
 }
 
 .featured-project .featured-project-container .featured-project-container-1 span{
-    top: 8.7rem;
-    left: 15rem;
+    top: 7.1rem;
+    left: 14rem;
 }
 
 .featured-project .featured-project-container .featured-project-container-2 .the-web-project{
@@ -3743,7 +3795,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    font-family: "apercu", sans-serif;
 }
 
 .service .service-head button span{
@@ -3757,15 +3809,15 @@ flex-direction: column;
     width: 33vw;
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1441px){
 
     .service .service-body img{
-        height: 50vh;
+        height: 55vh;
         width: 37vw;
     }
     .service .service-head{
         /* background-color: aqua; */
-        height: 40vh;
+        height: 43vh;
         width: 40vw;
         display: flex;
         justify-content: space-around;
@@ -3794,7 +3846,7 @@ flex-direction: column;
         
         .service .service-head button{
             margin-top: -4rem;
-            height: 6vh;
+            height: 8vh;
             width: 19vw;
             background-color: #F1F6F9;
             display: flex;
@@ -3803,7 +3855,7 @@ flex-direction: column;
         }
 
         .service .service-head button span{
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     
 }

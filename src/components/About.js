@@ -377,9 +377,9 @@ const About = () => {
                 <p>
                   <span>
                     Trusting the process and keeping my patience on check,
+                    <br />I try to explore more and more tech stacks which are
+                    helping me in my journey!
                   </span>
-                  <br />I try to explore more and more tech stacks which are
-                  helping me in my journey!
                 </p>
               </section>
             </div>
