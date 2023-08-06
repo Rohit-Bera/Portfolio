@@ -1856,7 +1856,7 @@ background-color: #F7E1AE;
     }
 
     .about-home .about-home-container .about-home-container-1 span{
-        top: 8rem;
+        top: 7.9rem;
         left: 12rem;
     }
 
@@ -1864,28 +1864,64 @@ background-color: #F7E1AE;
         height: 90vh;
     }
 
+    .about-home .about-home-container .about-home-container-2 div{
+        background-color: #27374D;
+        height: 28vh;
+        width: 43vw;
+        border-radius: 3px;
+    
+    }
+
+    .about-home .about-home-container .about-home-container-2 .about-me img{
+        height: 28vh;
+        width: 17vw;
+        border-radius: 3px;
+    }
+
     .about-home .about-home-container .about-home-container-2 .about-education span{
-        width: 24vw;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span{
-        width: 24vw;
-    }
-
-    .about-home .about-home-container .about-home-container-2 .about-skills span i{
-        width: 7.7vw;
-        height: 13.5vh;
+        height: 28vh;
+        width: 19vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #F1F6F9;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 2.3rem;
-        font-weight: 400;
+    }
+
+    .about-home .about-home-container .about-home-container-2 .about-skills span{
+        height: 28vh;
+        width: 25.5vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #F1F6F9;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about-home .about-home-container .about-home-container-2 .about-skills span i{
+        width: 8vw;
+        height: 14vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: 300;
+        /* background-color: yellow !important; */
     }
 
     .about-home .about-home-container .about-home-container-2 .about-experience span{
-        width: 24vw;
+        height: 28vh;
+        width: 19vw;
+        border-radius: 3px;
+        /* color: black; */
+        background-color: #8BF5FA;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-
 
 }
 
@@ -1915,7 +1951,7 @@ background-color: #F7E1AE;
     .about-home .about-home-container .about-home-container-2{
         /* background-color: greenyellow; */
         width: 90vw;
-        height: 120vh;
+        height: 170vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -1929,7 +1965,7 @@ background-color: #F7E1AE;
     }
 
     .about-home .about-home-container .about-home-container-2 .about-me img{
-        height: 27vh;
+        height: 28vh;
         width: 29vw;
         border-radius: 3px;
     }
@@ -1944,7 +1980,7 @@ background-color: #F7E1AE;
 
     .about-home .about-home-container .about-home-container-2 .about-skills span i{
         width: 10.9vw;
-        height: 13.5vh;
+        height: 13.9vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -2027,7 +2063,7 @@ background-color: #F7E1AE;
 
     .about-home .about-home-container .about-home-container-2 .about-skills span i{
         width: 17.3vw;
-        height: 13.5vh;
+        height: 13.8vh;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -3293,15 +3329,15 @@ background-color: #F7E1AE;
         height: 285vh;
     }
     .featured-project .featured-project-container .featured-project-container-1 label{
-        font-size: 9vh;
+        font-size: 10vh;
         margin-left: -0.1rem;
         text-align: center;
     }
 
 .featured-project .featured-project-container .featured-project-container-1 span{
-    top: 2.5rem;
-    left: 6rem;
-    font-size: 4vh;
+    top: 2.4rem;
+    left: 5rem;
+    font-size: 4.5vh;
 }
 
 .featured-project .featured-project-container .featured-project-container-2{
@@ -3422,14 +3458,14 @@ background-color: #F7E1AE;
         height: 285vh;
     }
     .featured-project .featured-project-container .featured-project-container-1 label{
-        font-size: 8vh;
-        margin-left: 0.5rem;
+        font-size: 8.5vh;
+        margin-left: 0.1rem;
         text-align: center;
     }
 
 .featured-project .featured-project-container .featured-project-container-1 span{
     top: 2.5rem;
-    left: 6rem;
+    left: 5rem;
     font-size: 4vh;
 }
 

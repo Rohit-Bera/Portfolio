@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "../styles/Service.css";
@@ -7,8 +7,19 @@ import {
   ComputerDesktopIcon,
   PuzzlePieceIcon,
 } from "@heroicons/react/24/solid";
+import LoaderPage from "./LoaderPage";
 
 const Service = () => {
+  const [isLoading, setLoaded] = useState(true);
+
+  const spinner = document.getElementById("spinner");
+
+  if (spinner) {
+    setTimeout(() => {
+      setLoaded(false);
+    }, 2500);
+  }
+
   const myService = [
     {
       icon: <PuzzlePieceIcon height={30} width={30} />,
@@ -33,45 +44,49 @@ const Service = () => {
     },
   ];
 
-  return (
-    <>
-      <Nav />
-      <div className="service-container">
-        <div className="service-title">
-          <section className="title-text">
-            <div className="title">
-              <span>I also provide freelancing services!</span>
-              <label>
-                Let's collaborate🤝 and transform your ideas ✍️ into engaging
-                and user-friendly designs⛩️.
-              </label>
-            </div>
-          </section>
-        </div>
-        <div className="service-body">
-          {myService.map((item) => {
-            return (
-              <div className="service-card">
-                <div className="service-header">
-                  <div className="service-icon">{item.icon}</div>
-                  <div className="service-name">{item.serviceName}</div>
-                </div>
-                <div className="service-content">
-                  <label className="label-25">{item.description}</label>
-                  <label className="label-15">
-                    {item.includes.map((items) => {
-                      return <span>{items}</span>;
-                    })}
-                  </label>
-                </div>
+  if (isLoading) {
+    return <LoaderPage />;
+  } else {
+    return (
+      <>
+        <Nav />
+        <div className="service-container">
+          <div className="service-title">
+            <section className="title-text">
+              <div className="title">
+                <span>I also provide freelancing services!</span>
+                <label>
+                  Let's collaborate🤝 and transform your ideas ✍️ into engaging
+                  and user-friendly designs⛩️.
+                </label>
               </div>
-            );
-          })}
+            </section>
+          </div>
+          <div className="service-body">
+            {myService.map((item) => {
+              return (
+                <div className="service-card">
+                  <div className="service-header">
+                    <div className="service-icon">{item.icon}</div>
+                    <div className="service-name">{item.serviceName}</div>
+                  </div>
+                  <div className="service-content">
+                    <label className="label-25">{item.description}</label>
+                    <label className="label-15">
+                      {item.includes.map((items) => {
+                        return <span>{items}</span>;
+                      })}
+                    </label>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
-      <Footer />
-    </>
-  );
+        <Footer />
+      </>
+    );
+  }
 };
 
 export default Service;

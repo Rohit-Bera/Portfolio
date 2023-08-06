@@ -1772,10 +1772,10 @@ align-items: center;
     }
     
     .about-wrapper .about-hero .about-hero-part1 section{
-        width: 30%;
-        height: 80%;
+        width: 50%;
+        height: 70%;
         /* background-color: #ffe4c4; */
-        margin-left: 14vw;
+        /* margin-left: 14vw; */
         text-align: right;
     }
     
@@ -4636,7 +4636,7 @@ align-items: center;
         background-color: black;
         color: white;
         height: 9vh;
-        width: 13vw;
+        width: 13.5vw;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -5184,7 +5184,7 @@ align-items: center;
         background-color: black;
         color: white;
         height: 9vh;
-        width: 15vw;
+        width: 15.5vw !important;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -7379,7 +7379,7 @@ align-items: center;
         background-color: black;
         color: white;
         height: 9vh;
-        width: 18vw;
+        width: 18vw !important;
         display: flex;
         justify-content: space-around;
         align-items: center;

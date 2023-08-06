@@ -1,0 +1,22 @@
+.loader{
+    /* background-color: #8BF5FA; */
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loader section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loader img{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid white;
+}

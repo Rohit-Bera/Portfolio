@@ -145,6 +145,8 @@
     font-size: 1.3vw;
     border-radius: 35px;
     box-shadow: 0px 0px 25px #888888;
+    text-align: justify;
+
 }
 
 .view-project-container .link-desc-wrapper .project-links{
@@ -266,7 +268,7 @@
     
     .view-project-container .project-slider section .title{
         background-color: #27374D;
-        height: 25vh;
+        height: 28vh;
         width: 16vw;
         text-transform: uppercase;
         /* padding: 1vw; */
@@ -284,7 +286,7 @@
     
     .view-project-container .project-slider section .project-logo{
         background-color: turquoise;
-        height: 25vh;
+        height: 28vh;
         width: 16vw;
         border-radius: 5px;
         box-shadow: 0px 0px 30px #888888;
@@ -298,7 +300,7 @@
     .view-project-container .project-slider section .project-short-description{
         background-color: #27374D;
         color: #8BF5FA;
-        height: 25vh;
+        height: 28vh;
         width: 25vw;
         text-align: center;
         display: flex;
@@ -312,7 +314,7 @@
     }
     .view-project-container .project-slider section .project-stack{
         background-color: #8BF5FA;
-        height: 24.5vh;
+        height: 28vh;
         width: 30.5vw;
         display: flex;
         justify-content: space-around;
@@ -356,7 +358,7 @@
     }
     
     .view-project-container .project-img section .img-content{
-        height: 55vh;
+        height: 64vh;
         width: 49vw;
         /* background-color: turquoise; */
     }
@@ -368,7 +370,7 @@
     }
 
     .link-desc-wrapper{
-        margin-top: 2.5vw;
+        margin-top: 14vw;
         /* background-color: aqua; */
         display: flex;
         justify-content: space-around;
@@ -388,6 +390,8 @@
         font-size: 1.5vw;
         border-radius: 35px;
         box-shadow: 0px 0px 25px #888888;
+        text-align: justify;
+
     }
     
     .view-project-container .link-desc-wrapper .project-links{
@@ -605,7 +609,7 @@
     }
 
     .link-desc-wrapper{
-        margin-top: 2.5vw;
+        margin-top: 4vw;
         /* background-color: aqua; */
         display: flex;
         justify-content: space-around;
@@ -622,9 +626,10 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 1.8vw;
+        font-size: 1.7vw;
         border-radius: 35px;
         box-shadow: 0px 0px 25px #888888;
+        text-align: justify;
     }
     
     .view-project-container .link-desc-wrapper .project-links{
@@ -650,6 +655,7 @@
         border-radius: 3px;
         box-shadow: 0px 0px 25px #888888;
         border: 2px solid #8BF5FA;
+        padding-left: 0.3rem;
     }
     
     .view-project-container .project-links .link{
@@ -864,6 +870,8 @@
         font-size: 1.8vw;
         border-radius: 35px;
         box-shadow: 0px 0px 25px #888888;
+        text-align: justify;
+
     }
     
     .view-project-container .link-desc-wrapper .project-links{
@@ -1107,6 +1115,7 @@
         font-weight: 400;
         border-radius: 35px;
         box-shadow: 0px 0px 10px #888888;
+
     }
     
     .view-project-container .link-desc-wrapper .project-links{

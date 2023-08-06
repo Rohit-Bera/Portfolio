@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import "../styles/Projects.css";
@@ -41,9 +41,20 @@ import taskify1 from "../resources/taskify1.png";
 import taskify2 from "../resources/taskify2.png";
 import taskify3 from "../resources/taskify3.png";
 import taskify4 from "../resources/taskify4.png";
+import LoaderPage from "./LoaderPage";
 
 const Work = () => {
   const navigation = useNavigate();
+
+  const spinner = document.getElementById("spinner");
+
+  const [isLoading, setLoaded] = useState(true);
+
+  if (spinner) {
+    setTimeout(() => {
+      setLoaded(false);
+    }, 2000);
+  }
 
   const projects = [
     {
@@ -137,39 +148,43 @@ const Work = () => {
     });
   };
 
-  return (
-    <>
-      <Nav />
-      <div className="project-container">
-        {/* <h3>My Projects</h3> */}
-        <div className="project-wrapper">
-          {projects.map((item) => {
-            return (
-              <div className="project-card">
-                <div className="project-img">
-                  <img src={item.projectImg[0]} />
-                </div>
-                {/* logo */}
-                <img src={item.projectLogo} className="project-logo" />
-                <div className="project-desc">
-                  <div>
-                    <section>
-                      <label>{item.projectTitle}</label>
-                      <span>{item.projectDescription}</span>
-                    </section>
-                    <button onClick={() => viewProject(item)}>
-                      <ArrowTopRightOnSquareIcon className="icon" />
-                    </button>
+  if (isLoading) {
+    return <LoaderPage />;
+  } else {
+    return (
+      <>
+        <Nav />
+        <div className="project-container">
+          {/* <h3>My Projects</h3> */}
+          <div className="project-wrapper">
+            {projects.map((item) => {
+              return (
+                <div className="project-card">
+                  <div className="project-img">
+                    <img src={item.projectImg[0]} />
+                  </div>
+                  {/* logo */}
+                  <img src={item.projectLogo} className="project-logo" />
+                  <div className="project-desc">
+                    <div>
+                      <section>
+                        <label>{item.projectTitle}</label>
+                        <span>{item.projectDescription}</span>
+                      </section>
+                      <button onClick={() => viewProject(item)}>
+                        <ArrowTopRightOnSquareIcon className="icon" />
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
-      </div>
-      <Footer />
-    </>
-  );
+        <Footer />
+      </>
+    );
+  }
 };
 
 export default Work;
