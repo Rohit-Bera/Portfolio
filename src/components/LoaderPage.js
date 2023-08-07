@@ -1,7 +1,7 @@
 import { useState, CSSProperties } from "react";
 import BarLoader from "react-spinners/BarLoader";
 import "../styles/Loader.css";
-import Logo from "../resources/portfoliologo.png";
+// import Logo from "../resources/portfoliologo.png";
 
 const LoaderPage = () => {
   return (
