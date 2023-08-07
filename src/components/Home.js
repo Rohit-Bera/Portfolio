@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/Home.css";
 import Footer from "./Footer";
-import logo from "../resources/portfoliologo.png";
 import aboutme from "../resources/aboutme.jpg";
 import profileImage from "../resources/profileImage.jpg";
 
