@@ -10,7 +10,7 @@ const LoaderPage = () => {
         <BarLoader
           color="white"
           loading={true}
-          width={163}
+          width={51}
           aria-label="Loading Spinner"
           data-testid="loader"
         />
@@ -18,7 +18,7 @@ const LoaderPage = () => {
         <BarLoader
           color="white"
           loading={true}
-          width={163}
+          width={51}
           aria-label="Loading Spinner"
           data-testid="loader"
         />

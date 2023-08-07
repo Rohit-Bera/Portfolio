@@ -4,6 +4,9 @@ import Footer from "./Footer";
 import aboutme from "../resources/aboutme.jpg";
 import profileImage from "../resources/profileImage.jpg";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import medshub1 from "../resources/medshub1.png";
 import medshub2 from "../resources/medshub2.png";
 import medshub3 from "../resources/medshub3.png";
@@ -40,6 +43,11 @@ import {
 import LoaderPage from "./LoaderPage";
 
 const Home = () => {
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  });
+
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
     window.innerHeight,
@@ -79,7 +87,7 @@ const Home = () => {
           {/* home */}
           {/* profile */}
           <div className="profile">
-            <div className="profile-avatar">
+            <div className="profile-avatar" data-aos="fade-up">
               <div className="profile-avatar-img">
                 <img src={profileImage} />
               </div>
@@ -137,14 +145,14 @@ const Home = () => {
                 <span>Myself</span>
               </div>
               <div className="about-home-container-2">
-                <div className="about-me">
+                <div className="about-me" data-aos="fade-up">
                   <img src={aboutme} />
                   <div className="about-me-text">
                     <label>About me</label>
                     <p>I am just upgrading my version! , without bugs XD</p>
                   </div>
                 </div>
-                <div className="about-education">
+                <div className="about-education" data-aos="fade-up">
                   <span>
                     <AcademicCapIcon height={40} width={40} />
                   </span>
@@ -153,7 +161,7 @@ const Home = () => {
                     <p>Currently pursuing mscit from gls university</p>
                   </div>
                 </div>
-                <div className="about-skills">
+                <div className="about-skills" data-aos="fade-up">
                   <span>
                     <i class="fab fa-brands fa-figma" />
                     <i class="fab fa-brands fa-css3" />
@@ -165,7 +173,7 @@ const Home = () => {
                     <p>frontend + backend</p>
                   </div>
                 </div>
-                <div className="about-experience">
+                <div className="about-experience" data-aos="fade-up">
                   <span>
                     <ChartPieIcon height={40} width={40} />
                   </span>
@@ -193,7 +201,7 @@ const Home = () => {
                 <span>projects</span>
               </div>
               <div className="featured-project-container-2">
-                <div className="the-web-project">
+                <div className="the-web-project" data-aos="fade-up">
                   <div className="project-image">
                     <img src={medshub1} />
                     <img src={medshub2} />
@@ -207,7 +215,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="the-web-project">
+                <div className="the-web-project" data-aos="fade-up">
                   <div className="project-image">
                     <img src={goldapp1} />
                     <img src={goldapp2} />
@@ -222,7 +230,7 @@ const Home = () => {
                   </div>
                 </div>
                 {/* app */}
-                <div className="the-app-project first">
+                <div className="the-app-project first" data-aos="fade-up">
                   <div className="project-image">
                     <div className="project-image-container">
                       <img src={recreate1} />
@@ -248,7 +256,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="the-app-project second">
+                <div className="the-app-project second" data-aos="fade-up">
                   <div className="project-image">
                     <div className="project-image-container">
                       <img src={taskify1} />
@@ -280,7 +288,7 @@ const Home = () => {
 
           {/* promotion */}
           <div className="promotion">
-            <div className="promotion-container">
+            <div className="promotion-container" data-aos="fade-up">
               <span>
                 you will find some more awesome projects{" "}
                 {windowSize[0] <= 426 ? (
@@ -304,7 +312,7 @@ const Home = () => {
               <label>Checkout</label>
               <p>Newly Launched Services</p>
               <Link to="/myservice">
-                <button>
+                <button data-aos="fade-up">
                   <span>view all services</span>
                   <ForwardIcon height={25} width={25} color="#27374D" />
                 </button>

@@ -10,8 +10,15 @@ import {
   RocketLaunchIcon,
 } from "@heroicons/react/24/outline";
 import LoaderPage from "./LoaderPage";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ViewWork = () => {
+  AOS.init({
+    offset: 200,
+    duration: 1000,
+  });
+
   const location = useLocation();
   console.log("location : ", location.state);
 
@@ -40,14 +47,16 @@ const ViewWork = () => {
           <div className="project-wrapper">
             <div className="project-slider">
               <section>
-                <div className="title">{location.state.item.type}</div>
-                <div className="project-logo">
+                <div className="title" data-aos="fade-up">
+                  {location.state.item.type}
+                </div>
+                <div className="project-logo" data-aos="fade-up">
                   <img src={location.state.item.projectLogo} />
                 </div>
-                <div className="project-short-description">
+                <div className="project-short-description" data-aos="fade-up">
                   {location.state.item.projectDescription}
                 </div>
-                <div className="project-stack">
+                <div className="project-stack" data-aos="fade-up">
                   <div
                     className="tech"
                     style={{ backgroundColor: "white", color: "black" }}
@@ -72,7 +81,7 @@ const ViewWork = () => {
                 {/* <img /> */}
                 {projectImages.map((item) => {
                   return (
-                    <div className="img-content">
+                    <div className="img-content" data-aos="fade-up">
                       <img src={item} />
                     </div>
                   );
@@ -80,10 +89,10 @@ const ViewWork = () => {
               </section>
             </div>
             <div className="link-desc-wrapper">
-              <div className="project-description">
+              <div className="project-description" data-aos="fade-up">
                 {location.state.item.projectLongDescription}
               </div>
-              <div className="project-links">
+              <div className="project-links" data-aos="fade-up">
                 <a href={location.state.item.githubRepoBackend}>
                   <button>
                     <div className="link">

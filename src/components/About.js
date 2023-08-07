@@ -18,6 +18,9 @@ import hackathon1 from "../resources/hackathon1.png";
 import hackathon2 from "../resources/haskathon2.png";
 import typlogo from "../resources/typlogo.png";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import {
   BookOpenIcon,
   BuildingLibraryIcon,
@@ -33,6 +36,11 @@ import Footer from "./Footer";
 import LoaderPage from "./LoaderPage";
 
 const About = () => {
+  AOS.init({
+    offset: 10,
+    duration: 1000,
+  });
+
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
     window.innerHeight,
@@ -223,7 +231,7 @@ const About = () => {
           <div className="about-section-990">
             <section className="wrapper-container-1">
               <div className="wrap">
-                <div className="about-me">
+                <div className="about-me" data-aos="fade-up">
                   <label>
                     I am a designer + developer who has interest in creating and
                     showcasing his artwork through web , app & ui/ux.
@@ -231,7 +239,7 @@ const About = () => {
                 </div>
 
                 {/* experience */}
-                <div className="about-exp">
+                <div className="about-exp" data-aos="fade-up">
                   <label>Experience</label>
                   <section>
                     {experience.map((item) => {
@@ -253,7 +261,7 @@ const About = () => {
                 </div>
               </div>
               {/* eductaion */}
-              <div className="about-edu-1">
+              <div className="about-edu-1" data-aos="fade-up">
                 <div className="uni-name">
                   <BuildingOffice2Icon className="icon" />
                   <label>GLS university</label>
@@ -290,7 +298,7 @@ const About = () => {
               {windowSize[0] <= 769 ? (
                 <>
                   {/* school */}
-                  <div className="about-edu-2">
+                  <div className="about-edu-2" data-aos="fade-up">
                     <section className="school-name">
                       <BuildingLibraryIcon className="icon" />
                       <label>Divine Buds school</label>
@@ -307,7 +315,7 @@ const About = () => {
                     </section>
                   </div>
                   {/* skills */}
-                  <div className="about-skills">
+                  <div className="about-skills" data-aos="fade-up">
                     <label>skills</label>
                     <div className="card-body">
                       {skill.map((item) => {
@@ -333,7 +341,7 @@ const About = () => {
               ) : (
                 <>
                   {/* skills */}
-                  <div className="about-skills">
+                  <div className="about-skills" data-aos="fade-up">
                     <label>skills</label>
                     <div className="card-body">
                       {skill.map((item) => {
@@ -356,7 +364,7 @@ const About = () => {
                     </div>
                   </div>
                   {/* school */}
-                  <div className="about-edu-2">
+                  <div className="about-edu-2" data-aos="fade-up">
                     <section className="school-name">
                       <BuildingLibraryIcon className="icon" />
                       <label>Divine Buds school</label>

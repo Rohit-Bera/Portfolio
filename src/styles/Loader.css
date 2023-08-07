@@ -16,7 +16,12 @@
 }
 
 .loader img{
-    height: 10rem;
-    width: 10rem;
+    height: 3rem;
+    width: 3rem;
     border: 2px solid white;
 }
+
+.length{
+    width: 100px;
+}
+

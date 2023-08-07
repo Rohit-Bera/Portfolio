@@ -9,8 +9,15 @@ import {
 import axios from "axios";
 import rocket from "../resources/rocketLoader.gif";
 import LoaderPage from "./LoaderPage";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ContactMe = () => {
+  AOS.init({
+    offset: 200,
+    duration: 1000,
+  });
+
   const [mouseOver, setMouseOver] = useState(false);
   const [loader, setLoader] = useState(false);
 
@@ -89,11 +96,11 @@ const ContactMe = () => {
         <Nav />
 
         <div className="contact-parent">
-          <div className="contact-title">
-            <label>Hey👋 , You can find me from here!</label>
+          <div className="contact-title" data-aos="fade-up">
+            <label data-aos="fade-up">Hey👋 , You can find me from here!</label>
           </div>
           <div className="contacts">
-            <section className="contacts-item">
+            <section className="contacts-item" data-aos="fade-up">
               <a
                 href="mailto:rohit.glsica19@gmail.com"
                 onMouseOver={() => setMouseOver(true)}
@@ -109,7 +116,7 @@ const ContactMe = () => {
                 <span>rohit.glsica19@gmail.com</span>
               </a>
             </section>
-            <section className="contacts-item">
+            <section className="contacts-item" data-aos="fade-up">
               <a href="https://wa.me/919664605041">
                 <div className="contact-icon">
                   <i class="fab fa-brands fa-whatsapp" />
@@ -129,6 +136,7 @@ const ContactMe = () => {
                   value={mail.name}
                   onChange={setMailInputs}
                   required
+                  data-aos="fade-up"
                 />
                 <input
                   type="text"
@@ -137,6 +145,7 @@ const ContactMe = () => {
                   value={mail.email}
                   onChange={setMailInputs}
                   required
+                  data-aos="fade-up"
                 />
                 <input
                   type="text"
@@ -145,6 +154,7 @@ const ContactMe = () => {
                   value={mail.subject}
                   onChange={setMailInputs}
                   required
+                  data-aos="fade-up"
                 />
                 <textarea
                   placeholder="your message"
@@ -152,6 +162,7 @@ const ContactMe = () => {
                   value={mail.message}
                   onChange={setMailInputs}
                   required
+                  data-aos="fade-up"
                 />
               </section>
               <button onClick={() => sentMail()}>

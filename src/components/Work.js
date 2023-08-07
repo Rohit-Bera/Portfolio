@@ -43,8 +43,16 @@ import taskify3 from "../resources/taskify3.png";
 import taskify4 from "../resources/taskify4.png";
 import LoaderPage from "./LoaderPage";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Work = () => {
   const navigation = useNavigate();
+
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  });
 
   const spinner = document.getElementById("spinner");
 
@@ -159,7 +167,7 @@ const Work = () => {
           <div className="project-wrapper">
             {projects.map((item) => {
               return (
-                <div className="project-card">
+                <div className="project-card" data-aos="fade-up">
                   <div className="project-img">
                     <img src={item.projectImg[0]} />
                   </div>

@@ -8,8 +8,15 @@ import {
   PuzzlePieceIcon,
 } from "@heroicons/react/24/solid";
 import LoaderPage from "./LoaderPage";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Service = () => {
+  AOS.init({
+    offset: 100,
+    duration: 1000,
+  });
+
   const [isLoading, setLoaded] = useState(true);
 
   const spinner = document.getElementById("spinner");
@@ -53,7 +60,7 @@ const Service = () => {
         <div className="service-container">
           <div className="service-title">
             <section className="title-text">
-              <div className="title">
+              <div className="title" data-aos="fade-up">
                 <span>I also provide freelancing services!</span>
                 <label>
                   Let's collaborate🤝 and transform your ideas ✍️ into engaging
@@ -65,12 +72,12 @@ const Service = () => {
           <div className="service-body">
             {myService.map((item) => {
               return (
-                <div className="service-card">
-                  <div className="service-header">
+                <div className="service-card" data-aos="fade-up">
+                  <div className="service-header" data-aos="fade-up">
                     <div className="service-icon">{item.icon}</div>
                     <div className="service-name">{item.serviceName}</div>
                   </div>
-                  <div className="service-content">
+                  <div className="service-content" data-aos="fade-up">
                     <label className="label-25">{item.description}</label>
                     <label className="label-15">
                       {item.includes.map((items) => {

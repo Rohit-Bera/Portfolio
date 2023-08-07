@@ -9,7 +9,15 @@ import {
 import axios from "axios";
 import rocket from "../resources/rocketLoader.gif";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Footer = () => {
+  AOS.init({
+    offset: 200,
+    duration: 1000,
+  });
+
   const [windowSize, setWindowSize] = useState([
     window.innerWidth,
     window.innerHeight,
@@ -99,7 +107,7 @@ const Footer = () => {
               {windowSize[0] <= 500 ? (
                 <div className="footer-head">
                   <a href="">
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-instagram" />
                       </button>
@@ -109,7 +117,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/rohit-bera22"
                     target="_blank"
                   >
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-linkedin-in" />
                       </button>
@@ -120,14 +128,14 @@ const Footer = () => {
                 <span>whatsapp</span>
               </section> */}
                   <a href="https://github.com/Rohit-Bera" target="_blank">
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-github-alt" />
                       </button>
                     </section>
                   </a>
                   <a href="">
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <EnvelopeIcon height={25} width={25} />
                       </button>
@@ -136,8 +144,11 @@ const Footer = () => {
                 </div>
               ) : (
                 <div className="footer-head">
-                  <a href="">
-                    <section>
+                  <a
+                    href="https://www.instagram.com/_lost.semicolon/"
+                    target="_blank"
+                  >
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-instagram" />
                       </button>
@@ -148,7 +159,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/rohit-bera22"
                     target="_blank"
                   >
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-linkedin-in" />
                       </button>
@@ -160,7 +171,7 @@ const Footer = () => {
                 <span>whatsapp</span>
               </section> */}
                   <a href="https://github.com/Rohit-Bera" target="_blank">
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-github-alt" />
                       </button>
@@ -168,7 +179,7 @@ const Footer = () => {
                     </section>
                   </a>
                   <a href="">
-                    <section>
+                    <section data-aos="fade-up">
                       <button>
                         <EnvelopeIcon height={25} width={25} />
                       </button>
@@ -187,6 +198,7 @@ const Footer = () => {
                       value={mail.name}
                       onChange={setMailInputs}
                       required
+                      data-aos="fade-up"
                     />
                   </section>
                   <section className="footer-part-2">
@@ -197,6 +209,7 @@ const Footer = () => {
                       value={mail.email}
                       onChange={setMailInputs}
                       required
+                      data-aos="fade-up"
                     />
                   </section>
                   <section className="footer-part-2">
@@ -207,6 +220,7 @@ const Footer = () => {
                       value={mail.subject}
                       onChange={setMailInputs}
                       required
+                      data-aos="fade-up"
                     />
                   </section>
                   <section className="footer-part-3">
@@ -216,6 +230,7 @@ const Footer = () => {
                       value={mail.message}
                       onChange={setMailInputs}
                       required
+                      data-aos="fade-up"
                     />
                   </section>
                   <button onClick={() => sentMail()}>
