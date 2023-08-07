@@ -1,11 +1,17 @@
 .loader{
     /* background-color: #8BF5FA; */
     background-color: black;
-    height: 100vh;
+    
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+    position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
 }
 
 .loader section{
