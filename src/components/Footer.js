@@ -106,7 +106,8 @@ const Footer = () => {
             <div className="footer-section-2">
               {windowSize[0] <= 500 ? (
                 <div className="footer-head">
-                  <a href="">
+                  <a href="https://www.instagram.com/_lost.semicolon/"
+                    target="_blank">
                     <section data-aos="fade-up">
                       <button>
                         <i class="fab fa-brands fa-instagram" />
@@ -134,7 +135,7 @@ const Footer = () => {
                       </button>
                     </section>
                   </a>
-                  <a href="">
+                  <a href="mailto:rohit.glsica19@gmail.com">
                     <section data-aos="fade-up">
                       <button>
                         <EnvelopeIcon height={25} width={25} />
@@ -178,7 +179,7 @@ const Footer = () => {
                       <span>Rohit-Bera</span>
                     </section>
                   </a>
-                  <a href="">
+                  <a href="mailto:rohit.glsica19@gmail.com">
                     <section data-aos="fade-up">
                       <button>
                         <EnvelopeIcon height={25} width={25} />
