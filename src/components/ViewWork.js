@@ -56,7 +56,7 @@ const ViewWork = () => {
                 <div className="project-short-description">
                   {location.state.item.projectDescription}
                 </div>
-                <div className="project-stack" data-aos="fade-up">
+                <div className="project-stack" >
                   <div
                     className="tech"
                     style={{ backgroundColor: "white", color: "black" }}
