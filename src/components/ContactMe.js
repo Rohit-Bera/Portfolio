@@ -99,8 +99,8 @@ const ContactMe = () => {
           <div className="contact-title" data-aos="fade-up">
             <label data-aos="fade-up">Hey👋 , You can find me from here!</label>
           </div>
-          <div className="contacts">
-            <section className="contacts-item" data-aos="fade-up">
+          <div className="contacts" data-aos="fade-up">
+            <section className="contacts-item" >
               <a
                 href="mailto:rohit.glsica19@gmail.com"
                 onMouseOver={() => setMouseOver(true)}
@@ -116,7 +116,7 @@ const ContactMe = () => {
                 <span>rohit.glsica19@gmail.com</span>
               </a>
             </section>
-            <section className="contacts-item" data-aos="fade-up">
+            <section className="contacts-item" >
               <a href="https://wa.me/919664605041">
                 <div className="contact-icon">
                   <i class="fab fa-brands fa-whatsapp" />
