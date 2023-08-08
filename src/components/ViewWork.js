@@ -47,13 +47,13 @@ const ViewWork = () => {
           <div className="project-wrapper">
             <div className="project-slider">
               <section>
-                <div className="title" data-aos="fade-up">
+                <div className="title">
                   {location.state.item.type}
                 </div>
-                <div className="project-logo" data-aos="fade-up">
+                <div className="project-logo">
                   <img src={location.state.item.projectLogo} />
                 </div>
-                <div className="project-short-description" data-aos="fade-up">
+                <div className="project-short-description">
                   {location.state.item.projectDescription}
                 </div>
                 <div className="project-stack" data-aos="fade-up">
